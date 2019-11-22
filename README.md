@@ -66,41 +66,31 @@ Alice -> Bob : Is it ok?
 
 #### Can not find Graphviz
 
-1. Install Graphviz
+* Install Graphviz
 
-    more information see http://plantuml.com/es/graphviz-dot
+more information see http://plantuml.com/es/graphviz-dot
 
-2. Add this line to diagram
+* Add this line to diagram
     
-    ```
-    !pragma graphviz_dot jdot
-    ```
-    
-    more information see http://plantuml.com/es/smetana02
-    
-    ```plantuml
-    
-    @startuml
-    !pragma graphviz_dot jdot
-    class Foo1
-    
-    Foo1 --> Foo2
-    Foo1 --> Foo3
-    Foo1 ---> Foo4 : test 4
-    Foo1 ----> Foo5 : test 5
-    
-    @enduml
-    
-    ```
-    
-    ```scala mdoc:plantuml:docs/src/main/resources/result1:png
-    
-    !pragma graphviz_dot jdot
-    class Foo1
-    
-    Foo1 --> Foo2
-    Foo1 --> Foo3
-    Foo1 ---> Foo4 : test 4
-    Foo1 ----> Foo5 : test 5
-    
-    ```
+```
+!pragma graphviz_dot jdot
+```
+
+more information see http://plantuml.com/es/smetana02
+
+```plantuml
+
+@startuml
+!pragma graphviz_dot jdot
+class Foo1
+
+Foo1 --> Foo2
+Foo1 --> Foo3
+Foo1 ---> Foo4 : test 4
+Foo1 ----> Foo5 : test 5
+
+@enduml
+
+```
+
+![docs/src/main/resources/result1.png](docs/src/main/resources/result1.png)
