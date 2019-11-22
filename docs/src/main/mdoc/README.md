@@ -4,7 +4,7 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 ---
 
-# @PROJECT_NAME@ @VERSION@
+# @PROJECT_NAME@ @VERSION@ :bowtie:
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
 [![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
@@ -26,7 +26,7 @@ libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % 
 
 ```
 
-## PlantUML
+## PlantUML :bar_chart:
 
 ```scala
 
@@ -71,41 +71,45 @@ Alice -> Bob : Is it ok?
 ```
 
 
-### Troubleshooting
+### Troubleshooting :scream:
 
 #### Can not find Graphviz
 
-Add this line to diagram
+1. Install Graphviz
 
-```
-!pragma graphviz_dot jdot
-```
+    more information see http://plantuml.com/es/graphviz-dot
 
-more information see http://plantuml.com/es/smetana02
-
-```plantuml
-
-@startuml
-!pragma graphviz_dot jdot
-class Foo1
-
-Foo1 --> Foo2
-Foo1 --> Foo3
-Foo1 ---> Foo4 : test 4
-Foo1 ----> Foo5 : test 5
-
-@enduml
-
-```
-
-```scala mdoc:plantuml:docs/src/main/resources/result1:png
-
-!pragma graphviz_dot jdot
-class Foo1
-
-Foo1 --> Foo2
-Foo1 --> Foo3
-Foo1 ---> Foo4 : test 4
-Foo1 ----> Foo5 : test 5
-
-```
+2. Add this line to diagram
+    
+    ```
+    !pragma graphviz_dot jdot
+    ```
+    
+    more information see http://plantuml.com/es/smetana02
+    
+    ```plantuml
+    
+    @startuml
+    !pragma graphviz_dot jdot
+    class Foo1
+    
+    Foo1 --> Foo2
+    Foo1 --> Foo3
+    Foo1 ---> Foo4 : test 4
+    Foo1 ----> Foo5 : test 5
+    
+    @enduml
+    
+    ```
+    
+    ```scala mdoc:plantuml:docs/src/main/resources/result1:png
+    
+    !pragma graphviz_dot jdot
+    class Foo1
+    
+    Foo1 --> Foo2
+    Foo1 --> Foo3
+    Foo1 ---> Foo4 : test 4
+    Foo1 ----> Foo5 : test 5
+    
+    ```
