@@ -48,6 +48,7 @@ lazy val `mdoc-modifier-plantuml` = (project in file("plantuml"))
   .settings(infoSettings)
   .settings(Settings.value)
   .settings(Settings.noAssemblyTest)
+  .settings(NexusSettings.value)
   .settings(crossScalaVersions := Settings.supportedScalaVersions)
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-plantuml`)
   // P L U G I N S
