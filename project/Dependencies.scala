@@ -6,11 +6,10 @@ object Dependencies {
     Seq(
       Artifact.akkaHttp,
       Artifact.akkaStream,
-      Artifact.aspectj
-    ) ++ Seq(
+      Artifact.aspectj,
       Artifact.scalaTest,
       Artifact.akkaHttpTestKit
-    ).map(_ % Test)
+    )
 
   val `mdoc-modifier-plantuml`: Seq[ModuleID] =
     Seq(

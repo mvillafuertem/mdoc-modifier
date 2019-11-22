@@ -4,8 +4,8 @@ import akka.http.scaladsl.model.HttpRequest
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.testkit.RouteTestResultComponent
 import akka.stream.{ActorMaterializer, Materializer}
-import org.aspectj.lang.annotation.{Around, Aspect, Before, Pointcut}
-import org.aspectj.lang.{JoinPoint, ProceedingJoinPoint}
+import org.aspectj.lang.ProceedingJoinPoint
+import org.aspectj.lang.annotation.{Around, Aspect, Pointcut}
 
 
 @Aspect

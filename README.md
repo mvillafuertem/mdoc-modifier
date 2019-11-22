@@ -6,6 +6,10 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 # Mdoc Modifier 0.1
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
+[![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
+[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=svg)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
+
 [TOC]
 
 TODO: Description

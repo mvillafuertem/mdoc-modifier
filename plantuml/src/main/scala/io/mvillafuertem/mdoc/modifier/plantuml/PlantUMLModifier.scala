@@ -1,17 +1,12 @@
 package io.mvillafuertem.mdoc.modifier.plantuml
 
-import mdoc.StringModifier
-import mdoc.Reporter
-
-import scala.meta.Input
 import java.io.{ByteArrayInputStream, ByteArrayOutputStream, File}
-import java.nio.charset.Charset
-import java.util.Base64
 
 import javax.imageio.ImageIO
-import net.sourceforge.plantuml.SourceStringReader
-import net.sourceforge.plantuml.FileFormatOption
-import net.sourceforge.plantuml.FileFormat
+import mdoc.{Reporter, StringModifier}
+import net.sourceforge.plantuml.{FileFormat, FileFormatOption, SourceStringReader}
+
+import scala.meta.Input
 
 class PlantUMLModifier extends StringModifier {
   override val name = "plantuml"
