@@ -11,7 +11,7 @@ object MdocSettings {
     mdocOut := file("."),
 
     mdocVariables := Map(
-      "PROJECT_NAME" -> name.value,
+      "PROJECT_NAME" -> "Mdoc Modifier",
       "VERSION" -> version.value,
       "SCALA_VERSION" -> scalaVersion.value,
       "SBT_VERSION" -> sbtVersion.value

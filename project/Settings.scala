@@ -1,21 +1,25 @@
-import sbt.Keys.{exportJars, _}
+import sbt.Keys.{exportJars, version, _}
 import sbt.{Def, Tests, _}
 
 object Settings {
 
+  lazy val scala213 = "2.13.1"
+  lazy val scala212 = "2.12.10"
+  lazy val supportedScalaVersions = List(scala213, scala212)
+
   val value: Seq[Def.Setting[_]] = Seq(
+
+    scalaVersion := scala213,
 
     scalacOptions := {
       val default = Seq(
         "-deprecation",
         "-feature",
-        "-language:existentials",
         "-language:higherKinds",
         "-language:implicitConversions",
         "-language:postfixOps",
-        "-language:reflectiveCalls",
         "-unchecked",
-        //"-Xfatal-warnings",
+        // "-Xfatal-warnings",
         "-Xlint"
       )
       if (version.value.endsWith("SNAPSHOT")) {
@@ -45,8 +49,8 @@ object Settings {
     publish / skip := true
   )
 
-  //  val noAssemblyTest: Seq[Def.Setting[_]] = Seq(
-  //    assembly / test := {}
-  //  )
+  val noAssemblyTest: Seq[Def.Setting[_]] = Seq(
+    //assembly / test := {}
+  )
 
 }

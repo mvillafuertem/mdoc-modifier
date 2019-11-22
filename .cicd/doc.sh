@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+set -o xtrace
+
+BASE="$(cd "$(dirname "${0}")" && pwd)"
+source ${BASE}/../.env
+
+echo Running doc.sh
+# see .git/hooks/pre-commit
+sbt docs/mdoc && git add README.md

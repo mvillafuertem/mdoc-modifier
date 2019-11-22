@@ -10,6 +10,26 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 TODO: Description
 
+- [x] Scala SDK @SCALA_VERSION@
+- [x] SBT @SBT_VERSION@
+
+
+## Akka HTTP
+
+```scala
+
+libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % "@VERSION@"
+
+```
+
+## PlantUML
+
+```scala
+
+libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-plantuml" % "@VERSION@"
+
+```
+
 Flow 
 
 ```scala 
