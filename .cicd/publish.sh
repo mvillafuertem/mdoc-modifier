@@ -9,3 +9,4 @@ BASE="$(cd "$(dirname "${0}")" && pwd)"
 source "${BASE}"/../.env
 
 echo Running publish.sh
+sbt + publish

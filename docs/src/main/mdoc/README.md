@@ -6,7 +6,7 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 # @PROJECT_NAME@ @VERSION@
 
-[TOC ]
+[TOC]
 
 TODO: Description
 
@@ -30,9 +30,33 @@ libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-plantuml" % "
 
 ```
 
-Flow 
+### How use
 
-```scala 
+Only add this, that's all
+
+```
+scala mdoc:plantuml:docs/src/main/resources/result0:png
+```
+
+
+
+@see http://plantuml.com/sitemap-language-specification
+
+```plantuml 
+
+@startuml
+
+participant Bob
+actor Alice
+ 
+Bob -> Alice : hello
+Alice -> Bob : Is it ok?
+
+@enduml
+
+```
+
+```scala mdoc:plantuml:docs/src/main/resources/result0:png
 
 participant Bob
 actor Alice
@@ -42,12 +66,32 @@ Alice -> Bob : Is it ok?
 
 ```
 
-```scala mdoc:plantuml:docs/src/main/resources/result:png
 
-participant Bob
-actor Alice
- 
-Bob -> Alice : hello
-Alice -> Bob : Is it ok?
+@see http://plantuml.com/es/smetana02
+
+```plantuml
+
+@startuml
+!pragma graphviz_dot jdot
+class Foo1
+
+Foo1 --> Foo2
+Foo1 --> Foo3
+Foo1 ---> Foo4 : test 4
+Foo1 ----> Foo5 : test 5
+
+@enduml
+
+```
+
+```scala mdoc:plantuml:docs/src/main/resources/result1:png
+
+!pragma graphviz_dot jdot
+class Foo1
+
+Foo1 --> Foo2
+Foo1 --> Foo3
+Foo1 ---> Foo4 : test 4
+Foo1 ----> Foo5 : test 5
 
 ```

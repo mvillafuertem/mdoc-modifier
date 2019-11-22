@@ -37,6 +37,7 @@ lazy val `mdoc-modifier-akka-http` = (project in file("akka-http"))
   .settings(infoSettings)
   .settings(Settings.value)
   .settings(Settings.noAssemblyTest)
+  .settings(Settings.noPublish)
   .settings(crossScalaVersions := Settings.supportedScalaVersions)
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
   // P L U G I N S
