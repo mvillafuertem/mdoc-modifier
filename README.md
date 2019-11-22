@@ -58,7 +58,17 @@ Alice -> Bob : Is it ok?
 
 ![docs/src/main/resources/result0.png](docs/src/main/resources/result0.png)
 
-@see http://plantuml.com/es/smetana02
+### Troubleshooting
+
+#### Can not find Graphviz
+
+Add this line to diagram
+
+```
+!pragma graphviz_dot jdot
+```
+
+more information see http://plantuml.com/es/smetana02
 
 ```plantuml
 

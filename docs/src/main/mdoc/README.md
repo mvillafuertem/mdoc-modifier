@@ -67,7 +67,17 @@ Alice -> Bob : Is it ok?
 ```
 
 
-@see http://plantuml.com/es/smetana02
+### Troubleshooting
+
+#### Can not find Graphviz
+
+Add this line to diagram
+
+```
+!pragma graphviz_dot jdot
+```
+
+more information see http://plantuml.com/es/smetana02
 
 ```plantuml
 
