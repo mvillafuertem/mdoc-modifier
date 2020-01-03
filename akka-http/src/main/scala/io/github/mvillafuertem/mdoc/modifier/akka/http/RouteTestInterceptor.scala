@@ -31,7 +31,7 @@ class RouteTestInterceptor extends RouteTestResultComponent {
     val value: RouteTestResult = pjp.proceed().asInstanceOf[RouteTestResult]
     println("MATERIALIZER")
     //println(materializer.toString)
-    AkkaHttpRestDocs(request, value.response).printer()
+    //AkkaHttpRestDocs(request, value.response).printer()
     value
 
   }
