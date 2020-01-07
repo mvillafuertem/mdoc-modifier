@@ -38,7 +38,7 @@ object Dependencies {
     val akka = "2.6.1"
     val aspectj = "1.9.5"
     val plantUml = "1.2019.12"
-    val scalaTest = "3.0.8"
+    val scalaTest = "3.1.0"
   }
 
 }

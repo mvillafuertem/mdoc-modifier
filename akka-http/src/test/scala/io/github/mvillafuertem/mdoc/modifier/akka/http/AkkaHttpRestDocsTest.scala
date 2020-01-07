@@ -5,9 +5,9 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
 import akka.util.ByteString
-import org.scalatest.FlatSpec
+import org.scalatest.flatspec.AnyFlatSpec
 
-final class AkkaHttpRestDocsTest extends FlatSpec {
+final class AkkaHttpRestDocsTest extends AnyFlatSpec {
 
 
   implicit val actorSystem = ActorSystem()
