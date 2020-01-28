@@ -15,7 +15,7 @@ WITH THE COMMAND `sbt docs/mdoc`
 TODO: Description
 
 - [x] Scala SDK 2.13.1
-- [x] SBT 1.3.3
+- [x] SBT 1.3.6
 
 
 ## Akka HTTP
