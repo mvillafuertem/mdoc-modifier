@@ -95,3 +95,10 @@ Foo1 ----> Foo5 : test 5
 ```
 
 ![modules/docs/src/main/resources/result1.png](modules/docs/src/main/resources/result1.png)
+
+### Choosing colors 
+
+
+![modules/docs/src/main/resources/colors-lightgreen.png](modules/docs/src/main/resources/colors-lightgreen.png)
+
+![modules/docs/src/main/resources/colors-lightblue.png](modules/docs/src/main/resources/colors-lightblue.png)

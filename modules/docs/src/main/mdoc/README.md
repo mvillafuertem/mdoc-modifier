@@ -122,3 +122,24 @@ Foo1 ----> Foo5 : test 5
 @enduml
 
 ```
+
+
+### Choosing colors 
+
+
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightgreen:png
+
+@startuml
+colors LightGreen
+@enduml
+
+```
+
+
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightblue:png
+
+@startuml
+colors LightBlue
+@enduml
+
+```
