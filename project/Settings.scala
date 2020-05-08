@@ -1,16 +1,14 @@
-import sbt.Keys.{exportJars, version, _}
-import sbt.{Def, Tests, _}
+import sbt.Keys.{ exportJars, version, _ }
+import sbt.{ Def, Tests, _ }
 
 object Settings {
 
-  lazy val scala213 = "2.13.2"
-  lazy val scala212 = "2.12.10"
+  lazy val scala213               = "2.13.2"
+  lazy val scala212               = "2.12.10"
   lazy val supportedScalaVersions = List(scala213, scala212)
 
   val value: Seq[Def.Setting[_]] = Seq(
-
     scalaVersion := scala213,
-
     scalacOptions := {
       val default = Seq(
         "-deprecation",
@@ -22,24 +20,19 @@ object Settings {
         // "-Xfatal-warnings",
         "-Xlint"
       )
-      if (version.value.endsWith("SNAPSHOT")) {
+      if (version.value.endsWith("SNAPSHOT"))
         default :+ "-Xcheckinit"
-      } else {
+      else
         default
-      } // check against early initialization
+      // check against early initialization
     },
-
     javaOptions += "-Duser.timezone=UTC",
-
     Test / fork := false,
-
     Test / parallelExecution := false,
-
     Test / testOptions ++= Seq(
       Tests.Argument(TestFrameworks.ScalaTest, "-u", "target/test-reports"),
       Tests.Argument("-oDF")
     ),
-
     Global / cancelable := true,
     // OneJar
     exportJars := true

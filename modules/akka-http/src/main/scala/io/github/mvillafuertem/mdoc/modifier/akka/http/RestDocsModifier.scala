@@ -2,9 +2,9 @@ package io.github.mvillafuertem.mdoc.modifier.akka.http
 
 import java.nio.file.Files
 
-import mdoc.internal.cli.{MdocProperties, Settings}
+import mdoc.internal.cli.{ MdocProperties, Settings }
 import mdoc.internal.markdown.Markdown
-import mdoc.{Reporter, StringModifier}
+import mdoc.{ Reporter, StringModifier }
 
 import scala.meta.inputs.Input
 import scala.meta.internal.io.PathIO

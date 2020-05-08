@@ -1,67 +1,46 @@
-lazy val infoSettings = Seq(
-  organization := "io.github.mvillafuertem",
-  description := "Mdoc Modifier is a set of modifiers",
-  homepage := Some(url(s"https://github.com/mvillafuertem/mdoc-modifier")),
-  licenses := List("MIT" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
-  developers := List(
-    Developer(
-      "mvillafuertem",
-      "Miguel Villafuerte",
-      "mvillafuertem@email.com",
-      url("https://github.com/mvillafuertem")
-    )
-  ),
-  scmInfo := Some(
-    ScmInfo(
-      url("https://github.com/mvillafuertem/mdoc-modifier"),
-      "scm:git@github.com:mvillafuertem/mdoc-modifier.git"
-    )
-  )
-)
+lazy val configurationPublish: Project => Project =
+  _.settings(Information.value)
+    .settings(Settings.value)
+    .settings(Settings.noAssemblyTest)
+    .settings(crossScalaVersions := Settings.supportedScalaVersions)
+
+lazy val configurationNoPublish: Project => Project =
+  _.settings(Information.value)
+    .settings(Settings.value)
+    .settings(Settings.noPublish)
+    .settings(Settings.noAssemblyTest)
+    .settings(crossScalaVersions := Nil)
 
 lazy val `mdoc-modifier` = (project in file("."))
+  .configure(configurationNoPublish)
   .aggregate(
     `mdoc-modifier-akka-http`,
     `mdoc-modifier-plantuml`,
-    docs
+    `mdoc-modifier-docs`
   )
-  // S E T T I N G S
-  .settings(infoSettings)
-  .settings(Settings.value)
-  .settings(Settings.noPublish)
-  .settings(Settings.noAssemblyTest)
-  .settings(crossScalaVersions := Nil)
+  .settings(commands ++= Commands.value)
 
-lazy val `mdoc-modifier-akka-http` = (project in file("akka-http"))
+lazy val `mdoc-modifier-akka-http` = (project in file("modules/akka-http"))
+  .configure(configurationPublish)
   // S E T T I N G S
-  .settings(infoSettings)
-  .settings(Settings.value)
-  .settings(Settings.noAssemblyTest)
-  .settings(Settings.noPublish)
-  .settings(crossScalaVersions := Settings.supportedScalaVersions)
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
   // P L U G I N S
   .enablePlugins(MdocPlugin)
 
-lazy val `mdoc-modifier-plantuml` = (project in file("plantuml"))
+lazy val `mdoc-modifier-plantuml` = (project in file("modules/plantuml"))
+  .configure(configurationPublish)
   // S E T T I N G S
-  .settings(infoSettings)
-  .settings(Settings.value)
-  .settings(Settings.noAssemblyTest)
   .settings(NexusSettings.value)
-  .settings(crossScalaVersions := Settings.supportedScalaVersions)
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-plantuml`)
   // P L U G I N S
   .enablePlugins(MdocPlugin)
 
-lazy val docs = (project in file("docs"))
+lazy val `mdoc-modifier-docs` = (project in file("modules/docs"))
+  .configure(configurationNoPublish)
+  // D E P E N D S  O N
   .dependsOn(`mdoc-modifier-plantuml`)
   // S E T T I N G S
   .settings(scalaSource in Compile := baseDirectory.value / "src/main/mdoc")
-  .settings(infoSettings)
-  .settings(Settings.value)
-  .settings(Settings.noPublish)
-  .settings(crossScalaVersions := Nil)
   .settings(MdocSettings.value)
   // P L U G I N S
   .enablePlugins(MdocPlugin)

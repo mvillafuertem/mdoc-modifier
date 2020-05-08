@@ -19,14 +19,14 @@ object Dependencies {
   private object Artifact {
 
     // A K K A
-    val akkaHttp = "com.typesafe.akka" %% "akka-http" % Version.akkaHttp
-    val akkaStream = "com.typesafe.akka" %% "akka-stream" % Version.akka
+    val akkaHttp        = "com.typesafe.akka" %% "akka-http"         % Version.akkaHttp
+    val akkaStream      = "com.typesafe.akka" %% "akka-stream"       % Version.akka
     val akkaHttpTestKit = "com.typesafe.akka" %% "akka-http-testkit" % Version.akkaHttp
 
     // A S P E C T J
-    val aspectj = "org.aspectj" % "aspectjrt" % Version.aspectj
+    val aspectj  = "org.aspectj"              % "aspectjrt" % Version.aspectj
     // P L A N T  U M L
-    val plantUml = "net.sourceforge.plantuml" % "plantuml" % Version.plantUml
+    val plantUml = "net.sourceforge.plantuml" % "plantuml"  % Version.plantUml
 
     // S C A L A  T E S T
     val scalaTest = "org.scalatest" %% "scalatest" % Version.scalaTest
@@ -34,10 +34,10 @@ object Dependencies {
   }
 
   private object Version {
-    val akkaHttp = "10.1.11"
-    val akka = "2.6.5"
-    val aspectj = "1.9.5"
-    val plantUml = "1.2020.8"
+    val akkaHttp  = "10.1.11"
+    val akka      = "2.6.5"
+    val aspectj   = "1.9.5"
+    val plantUml  = "1.2020.8"
     val scalaTest = "3.1.1"
   }
 

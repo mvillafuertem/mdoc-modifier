@@ -3,10 +3,9 @@ package io.github.mvillafuertem.mdoc.modifier.akka.http
 import akka.http.scaladsl.model.HttpRequest
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.testkit.RouteTestResultComponent
-import akka.stream.{ActorMaterializer, Materializer}
+import akka.stream.{ ActorMaterializer, Materializer }
 import org.aspectj.lang.ProceedingJoinPoint
-import org.aspectj.lang.annotation.{Around, Aspect, Pointcut}
-
+import org.aspectj.lang.annotation.{ Around, Aspect, Pointcut }
 
 @Aspect
 class RouteTestInterceptor extends RouteTestResultComponent {
@@ -17,11 +16,10 @@ class RouteTestInterceptor extends RouteTestResultComponent {
   @Pointcut("execution (* akka.http.scaladsl.testkit.RouteTest.TildeArrow..injectIntoRoute(..)) && args( *, *, *, *, materializer, ..)")
   def tildeArrowMaterializer(materializer: Materializer): Unit = ()
 
-
   @Around("tildeArrowApply(request, route)")
   def onBindAndHandle(pjp: ProceedingJoinPoint, request: HttpRequest, route: Route): RouteTestResult = {
 
-    val instance = pjp.getThis
+    val instance        = pjp.getThis
     val privateUriField = instance.getClass.getDeclaredField("materializer")
     privateUriField.setAccessible(true)
 
@@ -35,7 +33,6 @@ class RouteTestInterceptor extends RouteTestResultComponent {
     value
 
   }
-
 
 //  @Before("execution (* akka.http.scaladsl.testkit.RouteTest.TildeArrow.*.*(..))")
 //  def beforeTraceMethods(joinPoint: JoinPoint): Unit = {
@@ -76,7 +73,3 @@ class RouteTestInterceptor extends RouteTestResultComponent {
 
   override def failTest(msg: String): Nothing = ???
 }
-
-
-
-
