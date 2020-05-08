@@ -14,8 +14,8 @@ WITH THE COMMAND `sbt docs/mdoc`
 
 TODO: Description
 
-- [x] Scala SDK 2.13.1
-- [x] SBT 1.3.7
+- [x] Scala SDK 2.13.2
+- [x] SBT 1.3.10
 
 
 ## Akka HTTP
@@ -39,7 +39,7 @@ libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-plantuml" % "
 Only add this, that's all
 
 ```
-scala mdoc:plantuml:docs/src/main/resources/result0:png
+scala mdoc:plantuml:modules/mdoc-modifier-docs/src/main/resources/result0:png
 ```
 
 
@@ -60,7 +60,7 @@ Alice -> Bob : Is it ok?
 
 ```
 
-![docs/src/main/resources/result0.png](docs/src/main/resources/result0.png)
+![modules/docs/src/main/resources/result0.png](modules/docs/src/main/resources/result0.png)
 
 ### Troubleshooting :scream:
 
@@ -81,6 +81,7 @@ more information see http://plantuml.com/es/smetana02
 ```plantuml
 
 @startuml
+
 !pragma graphviz_dot jdot
 class Foo1
 
@@ -93,4 +94,4 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-![docs/src/main/resources/result1.png](docs/src/main/resources/result1.png)
+![modules/docs/src/main/resources/result1.png](modules/docs/src/main/resources/result1.png)
