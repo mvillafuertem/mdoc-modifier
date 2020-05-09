@@ -8,7 +8,7 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
 [![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
-[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=svg)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
+[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=shield)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
 
 [TOC]
 
@@ -61,6 +61,22 @@ Alice -> Bob : Is it ok?
 ```
 
 ```scala mdoc:plantuml:modules/docs/src/main/resources/result0:png
+
+@startuml
+
+participant Bob
+actor Alice
+ 
+Bob -> Alice : hello
+Alice -> Bob : Is it ok?
+
+@enduml
+
+```
+
+### Support SVG
+
+```scala mdoc:plantuml:modules/docs/src/main/resources/result0:svg
 
 @startuml
 
@@ -127,7 +143,7 @@ Foo1 ----> Foo5 : test 5
 ### Choosing colors 
 
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightgreen:png
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightgreen:svg
 
 @startuml
 colors LightGreen
@@ -136,7 +152,7 @@ colors LightGreen
 ```
 
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightblue:png
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightblue:svg
 
 @startuml
 colors LightBlue

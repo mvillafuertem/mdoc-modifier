@@ -8,7 +8,7 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
 [![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
-[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=svg)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
+[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=shield)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
 
 [TOC]
 
@@ -61,6 +61,9 @@ Alice -> Bob : Is it ok?
 ```
 
 ![modules/docs/src/main/resources/result0.png](modules/docs/src/main/resources/result0.png)
+### Support SVG
+
+![modules/docs/src/main/resources/result0.svg](modules/docs/src/main/resources/result0.svg)
 
 ### Troubleshooting :scream:
 
@@ -99,6 +102,6 @@ Foo1 ----> Foo5 : test 5
 ### Choosing colors 
 
 
-![modules/docs/src/main/resources/colors-lightgreen.png](modules/docs/src/main/resources/colors-lightgreen.png)
+![modules/docs/src/main/resources/colors-lightgreen.svg](modules/docs/src/main/resources/colors-lightgreen.svg)
 
-![modules/docs/src/main/resources/colors-lightblue.png](modules/docs/src/main/resources/colors-lightblue.png)
+![modules/docs/src/main/resources/colors-lightblue.svg](modules/docs/src/main/resources/colors-lightblue.svg)
