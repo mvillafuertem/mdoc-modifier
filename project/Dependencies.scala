@@ -43,7 +43,7 @@ object Dependencies {
     val akka                      = "2.6.5"
     val aspectj                   = "1.9.5"
     val plantUml                  = "1.2020.8"
-    val scalaTest                 = "3.1.1"
+    val scalaTest                 = "3.1.2"
     val zio                       = "1.0.0-RC18-2"
     val zioLogging                = "0.2.8"
     val zioInteropReactiveStreams = "1.0.3.5-RC6+7-dba6c28e-SNAPSHOT"
