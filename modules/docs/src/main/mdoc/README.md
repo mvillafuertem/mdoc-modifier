@@ -4,7 +4,7 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 ---
 
-# Mdoc Modifier 0.1 :bowtie:
+# @PROJECT_NAME@ @VERSION@ :bowtie:
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
 [![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
@@ -14,41 +14,45 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 TODO: Description
 
-- [x] Scala SDK 2.13.2
-- [x] SBT 1.3.10
+- [x] Scala SDK @SCALA_VERSION@
+- [x] SBT @SBT_VERSION@
 
 
 ## Akka HTTP
 
 ```scala
 
-libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % "0.1"
+libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % "@VERSION@"
 
 ```
 
 
-```scala
+```scala mdoc
+
 import sys.process._
 import org.scalatest._
 import io.github.mvillafuertem.mdoc.modifier.akka.http.sample.SampleApplicationSpec
 
 nocolor.run(new SampleApplicationSpec)
-// SampleApplicationSpec:
-// Sample Application
-// - should health
 ```
 
 
-SampleApplicationSpec:
-Sample Application
-- should health
+```scala mdoc:passthrough
+
+import sys.process._
+import org.scalatest._
+import io.github.mvillafuertem.mdoc.modifier.akka.http.sample.SampleApplicationSpec
+
+nocolor.run(new SampleApplicationSpec)
+
+```
 
 
 ## PlantUML :bar_chart:
 
 ```scala
 
-libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-plantuml" % "0.1"
+libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-plantuml" % "@VERSION@"
 
 ```
 
@@ -78,10 +82,36 @@ Alice -> Bob : Is it ok?
 
 ```
 
-![modules/docs/src/main/resources/result0.png](modules/docs/src/main/resources/result0.png)
+```scala mdoc:plantuml:modules/docs/src/main/resources/result0:png
+
+@startuml
+
+participant Bob
+actor Alice
+ 
+Bob -> Alice : hello
+Alice -> Bob : Is it ok?
+
+@enduml
+
+```
+
 ### Support SVG
 
-![modules/docs/src/main/resources/result0.svg](modules/docs/src/main/resources/result0.svg)
+```scala mdoc:plantuml:modules/docs/src/main/resources/result0:svg
+
+@startuml
+
+participant Bob
+actor Alice
+ 
+Bob -> Alice : hello
+Alice -> Bob : Is it ok?
+
+@enduml
+
+```
+
 
 ### Troubleshooting :scream:
 
@@ -115,11 +145,39 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-![modules/docs/src/main/resources/result1.png](modules/docs/src/main/resources/result1.png)
+```scala mdoc:plantuml:modules/docs/src/main/resources/result1:png
+
+@startuml
+
+!pragma graphviz_dot jdot
+class Foo1
+
+Foo1 --> Foo2
+Foo1 --> Foo3
+Foo1 ---> Foo4 : test 4
+Foo1 ----> Foo5 : test 5
+
+@enduml
+
+```
+
 
 ### Choosing colors 
 
 
-![modules/docs/src/main/resources/colors-lightgreen.svg](modules/docs/src/main/resources/colors-lightgreen.svg)
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightgreen:svg
 
-![modules/docs/src/main/resources/colors-lightblue.svg](modules/docs/src/main/resources/colors-lightblue.svg)
+@startuml
+colors LightGreen
+@enduml
+
+```
+
+
+```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightblue:svg
+
+@startuml
+colors LightBlue
+@enduml
+
+```
