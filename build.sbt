@@ -30,6 +30,7 @@ lazy val `mdoc-modifier` = (project in file("."))
   .configure(configurationNoPublish)
   .aggregate(
     `mdoc-modifier-akka-http`,
+    `mdoc-modifier-akka-http-sample`,
     `mdoc-modifier-plantuml`,
     `mdoc-modifier-docs`
   )
@@ -39,8 +40,11 @@ lazy val `mdoc-modifier-akka-http` = (project in file("modules/akka-http"))
   .configure(configurationPublish)
   // S E T T I N G S
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
-  // P L U G I N S
-  .enablePlugins(MdocPlugin)
+
+lazy val `mdoc-modifier-akka-http-sample` = (project in file("modules/akka-http-sample"))
+  .configure(configurationNoPublish)
+  // S E T T I N G S
+  .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
 
 lazy val `mdoc-modifier-plantuml` = (project in file("modules/plantuml"))
   .configure(configurationPublish)
@@ -54,6 +58,7 @@ lazy val `mdoc-modifier-docs` = (project in file("modules/docs"))
   .configure(configurationNoPublish)
   // D E P E N D S  O N
   .dependsOn(`mdoc-modifier-plantuml`)
+  .dependsOn(`mdoc-modifier-akka-http`)
   // S E T T I N G S
   .settings(scalaSource in Compile := baseDirectory.value / "src/main/mdoc")
   .settings(MdocSettings.value)

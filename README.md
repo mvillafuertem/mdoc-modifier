@@ -26,6 +26,24 @@ libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % 
 
 ```
 
+
+```scala
+import sys.process._
+import org.scalatest._
+import io.github.mvillafuertem.mdoc.modifier.akka.http.sample.SampleApplicationSpec
+
+nocolor.run(new SampleApplicationSpec)
+// SampleApplicationSpec:
+// Sample Application
+// - should health
+```
+
+
+SampleApplicationSpec:
+Sample Application
+- should health
+
+
 ## PlantUML :bar_chart:
 
 ```scala

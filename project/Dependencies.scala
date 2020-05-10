@@ -6,10 +6,12 @@ object Dependencies {
     Seq(
       Artifact.akkaHttp,
       Artifact.akkaStream,
-      Artifact.aspectj,
-      Artifact.scalaTest,
-      Artifact.akkaHttpTestKit
-    )
+      Artifact.aspectj
+    ) ++ Seq(
+      Artifact.akkaHttpTestKit,
+      Artifact.akkaTeskit,
+      Artifact.scalaTest
+    )//.map(_ % Test)
 
   val `mdoc-modifier-plantuml`: Seq[ModuleID] =
     Seq(
@@ -27,6 +29,7 @@ object Dependencies {
     val akkaHttp        = "com.typesafe.akka"       %% "akka-http"         % Version.akkaHttp
     val akkaHttpTestKit = "com.typesafe.akka"       %% "akka-http-testkit" % Version.akkaHttp
     val akkaStream      = "com.typesafe.akka"       %% "akka-stream"       % Version.akka
+    val akkaTeskit      = "com.typesafe.akka"       %% "akka-testkit"      % Version.akka
     val aspectj         = "org.aspectj"              % "aspectjrt"         % Version.aspectj
     val plantUml        = "net.sourceforge.plantuml" % "plantuml"          % Version.plantUml
     val scalaTest       = "org.scalatest"           %% "scalatest"         % Version.scalaTest
