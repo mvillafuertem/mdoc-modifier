@@ -42,6 +42,7 @@ lazy val `mdoc-modifier-akka-http` = (project in file("modules/akka-http"))
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
 
 lazy val `mdoc-modifier-akka-http-sample` = (project in file("modules/akka-http-sample"))
+  .dependsOn(`mdoc-modifier-akka-http`)
   .configure(configurationNoPublish)
   // S E T T I N G S
   .settings(libraryDependencies ++= Dependencies.`mdoc-modifier-akka-http`)
