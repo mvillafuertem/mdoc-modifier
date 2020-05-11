@@ -40,7 +40,7 @@ object Dependencies {
   }
 
   private object Version {
-    val akkaHttp                  = "10.1.11"
+    val akkaHttp                  = "10.1.12"
     val akka                      = "2.6.5"
     val plantUml                  = "1.2020.8"
     val scalaTest                 = "3.1.2"
