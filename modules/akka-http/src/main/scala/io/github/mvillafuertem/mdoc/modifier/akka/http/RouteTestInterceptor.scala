@@ -1,17 +1,13 @@
 package io.github.mvillafuertem.mdoc.modifier.akka.http
 
 import akka.http.scaladsl.model.HttpRequest
-import akka.http.scaladsl.server.directives.{BasicDirectives, LoggingMagnet}
-import akka.http.scaladsl.server.{Directive, Directive0, Route, RouteResult}
+import akka.http.scaladsl.server.directives.{ BasicDirectives, LoggingMagnet }
+import akka.http.scaladsl.server.{ Directive, Directive0, RouteResult }
 import akka.http.scaladsl.testkit.RouteTestResultComponent
 import akka.http.scaladsl.util.FastFuture
-import org.aspectj.lang.ProceedingJoinPoint
-import org.aspectj.lang.annotation.{Around, Aspect}
+import io.github.mvillafuertem.mdoc.modifier.akka.http.RouteTestInterceptor._
 
 import scala.concurrent.Future
-import RouteTestInterceptor._
-
-
 
 class RouteTestInterceptor extends RouteTestResultComponent {
 
@@ -22,7 +18,7 @@ class RouteTestInterceptor extends RouteTestResultComponent {
         logResult(result)
         println(result)
         result match {
-          case RouteResult.Complete(response) =>
+          case RouteResult.Complete(response)   =>
             AkkaHttpRestDocs(ctx.request, response).printer()
           case RouteResult.Rejected(rejections) =>
             println(rejections)
@@ -32,7 +28,7 @@ class RouteTestInterceptor extends RouteTestResultComponent {
     }
 
   def mapRouteResult(f: RouteResult => RouteResult): Directive0 =
-    Directive { inner => ctx => inner(())(ctx).fast.map(f)(ctx.executionContext) }
+    Directive(inner => ctx => inner(())(ctx).fast.map(f)(ctx.executionContext))
 
   override def failTest(msg: String): Nothing = ???
 
@@ -45,7 +41,3 @@ object RouteTestInterceptor {
   }
 
 }
-
-
-
-
