@@ -60,6 +60,7 @@ lazy val `mdoc-modifier-docs` = (project in file("modules/docs"))
   // D E P E N D S  O N
   .dependsOn(`mdoc-modifier-plantuml`)
   .dependsOn(`mdoc-modifier-akka-http`)
+  .dependsOn(`mdoc-modifier-akka-http-sample` % "compile->test")
   // S E T T I N G S
   .settings(scalaSource in Compile := baseDirectory.value / "src/main/mdoc")
   .settings(MdocSettings.value)

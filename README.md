@@ -6,6 +6,10 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 # Mdoc Modifier 0.1 :bowtie:
 
+[![Donate](https://img.shields.io/badge/donate-PayPal-green.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HE7K7HLJJBVWN&currency_code=EUR&source=url)
+[![Scala](https://img.shields.io/badge/scala-2.13.2-red.svg?logo=scala&logoColor=red)](https://github.com/scala/scala/releases)
+[![Java](https://img.shields.io/badge/jdk-11.0.7-orange.svg?logo=java&logoColor=white)](https://www.oracle.com/technetwork/java/javase/11all-relnotes-5013287.html)
+[![Sbt](https://img.shields.io/badge/sbt-1.3.10-blue.svg?logo=sbt)](https://github.com/sbt/sbt/releases)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
 [![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
 [![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=shield)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
@@ -13,9 +17,6 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 [TOC]
 
 TODO: Description
-
-- [x] Scala SDK 2.13.2
-- [x] SBT 1.3.10
 
 
 ## Akka HTTP
@@ -35,12 +36,62 @@ import io.github.mvillafuertem.mdoc.modifier.akka.http.sample.SampleApplicationS
 nocolor.run(new SampleApplicationSpec)
 // SampleApplicationSpec:
 // Sample Application
+// Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,16 bytes total),HttpProtocol(HTTP/1.1)))
+// 
+// ## `GET / http://example.com/health`
+// 
+// List()
+// 
+// 
+// ```
+// 
+// HttpEntity.Strict(none/none,0 bytes total)
+// 
+// ```
+// 
+// ### Response
+// 
+// HTTP/1.1 200 OK
+// 
+// List()
+// 
+// ```
+// 
+// HttpEntity.Strict(application/json,16 bytes total)
+// 
+// ```
+//        
 // - should health
 ```
 
 
 SampleApplicationSpec:
 Sample Application
+Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,16 bytes total),HttpProtocol(HTTP/1.1)))
+
+## `GET / http://example.com/health`
+
+List()
+
+
+```
+
+HttpEntity.Strict(none/none,0 bytes total)
+
+```
+
+### Response
+
+HTTP/1.1 200 OK
+
+List()
+
+```
+
+HttpEntity.Strict(application/json,16 bytes total)
+
+```
+       
 - should health
 
 
