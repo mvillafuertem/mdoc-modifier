@@ -1,5 +1,5 @@
 // A S S E M B L Y
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.10")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.15.0")
 
 // G I T
 addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.0")
