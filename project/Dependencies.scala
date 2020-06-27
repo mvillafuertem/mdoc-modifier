@@ -44,7 +44,7 @@ object Dependencies {
     val akka                      = "2.6.5"
     val plantUml                  = "1.2020.11"
     val scalaTest                 = "3.1.2"
-    val zio                       = "1.0.0-RC20"
+    val zio                       = "1.0.0-RC21-1"
     val zioLogging                = "0.3.0"
   }
 
