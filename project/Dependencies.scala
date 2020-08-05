@@ -45,7 +45,7 @@ object Dependencies {
     val plantUml                  = "1.2020.15"
     val scalaTest                 = "3.2.0"
     val zio                       = "1.0.0-RC21-2"
-    val zioLogging                = "0.3.2"
+    val zioLogging                = "0.4.0"
   }
 
 }
