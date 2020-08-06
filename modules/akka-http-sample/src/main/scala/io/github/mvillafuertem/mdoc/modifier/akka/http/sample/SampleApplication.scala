@@ -13,7 +13,7 @@ object SampleApplication extends App {
   implicit val actorMaterializer: ActorMaterializer = ActorMaterializer()
   implicit val executionContext: ExecutionContext   = actorSystem.dispatcher
 
-  val bindingFuture = Http().bindAndHandle(new SampleController().routes, "localhost", 8080)
+  val bindingFuture = Http().newServerAt("localhost", 8080).bind(new SampleController().routes)
 
   StdIn.readLine()
 
