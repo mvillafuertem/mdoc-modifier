@@ -42,7 +42,7 @@ object Dependencies {
   private object Version {
     val akkaHttp                  = "10.2.0"
     val akka                      = "2.6.8"
-    val plantUml                  = "1.2020.15"
+    val plantUml                  = "1.2020.16"
     val scalaTest                 = "3.2.1"
     val zio                       = "1.0.0"
     val zioLogging                = "0.4.0"
