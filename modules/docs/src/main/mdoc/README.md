@@ -4,7 +4,7 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 ---
 
-<i align="center" style="font-size:.85em">:bowtie:</i>
+<p align="center" style="font-size:.85em">:bowtie:</p>
 <h1 align="center">@PROJECT_NAME@ @VERSION@</h1>
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HE7K7HLJJBVWN&currency_code=EUR&source=url">
