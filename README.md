@@ -4,15 +4,35 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 ---
 
-# Mdoc Modifier 0.1 :bowtie:
+<p align="center" style="font-size:50px;">:bowtie:</p>
+<h1 align="center">Mdoc Modifier 0.1</h1>
+<p align="center">
+  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HE7K7HLJJBVWN&currency_code=EUR&source=url">
+    <img src="https://img.shields.io/badge/donate-PayPal-green.svg?logo=paypal"/>
+  </a>
+  <a href="https://github.com/scala/scala/releases">
+    <img src="https://img.shields.io/badge/scala-2.13.3-red.svg?logo=scala&logoColor=red"/>
+  </a>  
+  <a href="https://www.oracle.com/technetwork/java/javase/11all-relnotes-5013287.html">
+    <img src="https://img.shields.io/badge/jdk-11.0.7-orange.svg?logo=java&logoColor=white"/>
+  </a>  
+  <a href="https://github.com/sbt/sbt/releases">
+    <img src="https://img.shields.io/badge/sbt-1.3.13-blue.svg?logo=sbt"/>
+  </a>
+  <a href="https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13">
+    <img src="https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg"/>
+  </a>
+  <a href="https://github.com/mvillafuertem/mdoc-modifier/actions?query=workflow%3A%22scalaci%22">
+    <img src="https://github.com/mvillafuertem/mdoc-modifier/workflows/scalaci/badge.svg"/>
+  </a>      
+  <a href="https://circleci.com/gh/mvillafuertem/mdoc-modifier">
+    <img src="https://img.shields.io/circleci/build/github/mvillafuertem/mdoc-modifier?logo=circleci&style=flat"/>
+  </a>  
+  <a href="https://travis-ci.com/mvillafuertem/mdoc-modifier">
+    <img src="https://img.shields.io/travis/mvillafuertem/mdoc-modifier/master.svg?logo=travis&style=flat"/>
+  </a>
+</p> 
 
-[![Donate](https://img.shields.io/badge/donate-PayPal-green.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HE7K7HLJJBVWN&currency_code=EUR&source=url)
-[![Scala](https://img.shields.io/badge/scala-2.13.3-red.svg?logo=scala&logoColor=red)](https://github.com/scala/scala/releases)
-[![Java](https://img.shields.io/badge/jdk-11.0.7-orange.svg?logo=java&logoColor=white)](https://www.oracle.com/technetwork/java/javase/11all-relnotes-5013287.html)
-[![Sbt](https://img.shields.io/badge/sbt-1.3.13-blue.svg?logo=sbt)](https://github.com/sbt/sbt/releases)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.mvillafuertem/mdoc-modifier-plantuml_2.13)
-[![Build Status](https://travis-ci.com/mvillafuertem/mdoc-modifier.svg?branch=master)](https://travis-ci.com/mvillafuertem/mdoc-modifier)
-[![CircleCI](https://circleci.com/gh/mvillafuertem/mdoc-modifier.svg?style=shield)](https://circleci.com/gh/mvillafuertem/mdoc-modifier)
 
 [TOC]
 
@@ -29,7 +49,6 @@ libraryDependencies += "io.github.mvillafuertem" %% "mdoc-modifier-akka-http" % 
 
 
 ```scala
-import sys.process._
 import org.scalatest._
 import io.github.mvillafuertem.mdoc.modifier.akka.http.sample.SampleApplicationSpec
 

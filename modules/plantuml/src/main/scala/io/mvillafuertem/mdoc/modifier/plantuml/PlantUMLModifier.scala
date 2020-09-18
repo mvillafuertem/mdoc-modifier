@@ -8,7 +8,7 @@ import net.sourceforge.plantuml.{ FileFormat, FileFormatOption, SourceStringRead
 import zio._
 import zio.clock.Clock
 import zio.console.Console
-import zio.logging.{ log, Logging }
+import zio.logging.{ log, LogFormat, LogLevel, Logging }
 
 import scala.meta.Input
 
@@ -59,7 +59,7 @@ object PlantUMLModifier {
       case _               => ZIO.fail(PlantUMLError(createError(fileFormat.toString)))
     }
 
-  def createDiagramSVG(code: Input, plantUMLInformation: PlantUMLInformation) = {
+  def createDiagramSVG(code: Input, plantUMLInformation: PlantUMLInformation): ZIO[Logging, PlantUMLError, String] = {
 
     val fileName = s"${plantUMLInformation.pathName}.${plantUMLInformation.fileFormat}"
 
@@ -76,7 +76,7 @@ object PlantUMLModifier {
       }
       .mapError(e => PlantUMLError(s"$e"))
   }
-  def createDiagramPNG(code: Input, plantUMLInformation: PlantUMLInformation): ZIO[Logging, PlantUMLError, String] =
+  def createDiagramPNG(code: Input, plantUMLInformation: PlantUMLInformation): ZIO[Logging, PlantUMLError, String]                      =
     ZManaged
       .makeEffect(new ByteArrayOutputStream())(_.close())
       .use { os =>
@@ -104,6 +104,9 @@ object PlantUMLModifier {
     } yield effect
 
   private lazy val loggingLayer: URLayer[Console with Clock, Logging] =
-    Logging.console((_, logEntry) => logEntry)
+    Logging.console(
+      logLevel = LogLevel.Info,
+      format = LogFormat.ColoredLogFormat()
+    ) >>> Logging.withRootLoggerName("PlantUMLModifier")
 
 }
