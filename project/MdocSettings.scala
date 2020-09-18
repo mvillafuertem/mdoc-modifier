@@ -1,6 +1,6 @@
-import sbt.Keys.{ baseDirectory, name, sbtVersion, scalaVersion, version }
-import sbt._
 import mdoc.MdocPlugin.autoImport._
+import sbt.Keys._
+import sbt._
 
 object MdocSettings {
 
@@ -11,7 +11,8 @@ object MdocSettings {
       "PROJECT_NAME"  -> "Mdoc Modifier",
       "VERSION"       -> version.value,
       "SCALA_VERSION" -> scalaVersion.value,
-      "SBT_VERSION"   -> sbtVersion.value
+      "SBT_VERSION"   -> sbtVersion.value,
+      "RESOURCES"     -> "modules/docs/src/main/resources"
     )
   )
 

@@ -101,7 +101,7 @@ Alice -> Bob : Is it ok?
 
 ```
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/result0:png
+```scala mdoc:plantuml:@RESOURCES@/result0:png
 
 @startuml
 
@@ -117,7 +117,7 @@ Alice -> Bob : Is it ok?
 
 ### Support SVG
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/result0:svg
+```scala mdoc:plantuml:@RESOURCES@/result0:svg
 
 @startuml
 
@@ -164,7 +164,7 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/result1:png
+```scala mdoc:plantuml:@RESOURCES@/result1:png
 
 @startuml
 
@@ -180,11 +180,165 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
+```scala mdoc:plantuml:@RESOURCES@/result2:png
+
+@startuml
+
+!pragma graphviz_dot jdot
+!define STDLIB https://raw.githubusercontent.com/plantuml/plantuml-stdlib/master
+!includeurl STDLIB/awslib/AWSCommon.puml
+!includeurl STDLIB/awslib/Storage/SimpleStorageServiceS3.puml
+!includeurl STDLIB/awslib/Compute/ElasticContainerService.puml
+!includeurl STDLIB/tupadr3/devicons/jenkins.puml
+!includeurl STDLIB/tupadr3/devicons/python.puml
+!includeurl STDLIB/tupadr3/devicons/groovy.puml
+!includeurl STDLIB/tupadr3/devicons/java.puml
+!includeurl STDLIB/tupadr3/devicons/jenkins.puml
+!includeurl STDLIB/tupadr3/devicons/git.puml
+!includeurl STDLIB/tupadr3/devicons/bitbucket.puml
+!includeurl STDLIB/material/console.puml
+
+title Deploy Processes
+
+skinparam sequence {
+    ParticipantFontName Avenir-Medium
+    ArrowColor #000
+    LifeLineBorderColor #000
+    LifeLineBackgroundColor #FFF
+    ActorBorderColor #000
+    ActorBackgroundColor #FFF
+    ParticipantBorderColor #000
+    ParticipantBackgroundColor #FFF
+    GroupBackgroundColor #FFF
+    ArrowFontColor #000
+    BoxFontColor #FFF
+    BoxBorderColor #FFF
+}
+
+actor Actor <<client>>
+
+box <size:20>jenkins</size> #C45543
+participant job1 as "<color:#C45543><$jenkins></color>\nComponents" <<job>>
+participant job2 as "<color:#C45543><$jenkins></color>\nServices" <<job>>
+participant job3 as "<color:#C45543><$jenkins></color>\nDeployments" <<job>>
+end box
+
+box <size:20>project</size> #6E9BB9
+participant class1 as "<color:#6E9BB9><$groovy></color>\ncomponents.groovy" <<script>>
+participant class2 as "<color:#6E9BB9><$groovy></color>\nservices.groovy" <<script>>
+participant class3 as "<color:#6E9BB9><$groovy></color>\npromote.groovy" <<script>>
+end box
+
+box <size:20>project</size> #F7CB4B
+participant script1 as "<color:#F7CB4B><$ma_console></color>\ndeploy.sh" <<script>>
+participant script2 as "<color:#F7CB4B><$python></color>\ncheck.py" <<script>>
+participant script3 as "<color:#F7CB4B><$python></color>\ndelete.py" <<script>>
+participant script4 as "<color:#F7CB4B><$python></color>\npromote.py" <<script>>
+participant script5 as "<color:#F7CB4B><$python></color>\ndeploy.py" <<script>>
+end box
+
+box <size:20>project</size> #2C507D
+participant pipeline1 as "<color:#2C507D><$bitbucket></color>" <<pipeline>>
+end box
+
+box <size:20>cloud</size> #8CB77C
+participant s3 as "<color:#8CB77C><$SimpleStorageServiceS3></color>\
+\ndeployments" <<bucket>>
+
+participant ecs as "<color:#D86613><$ElasticContainerService></color>\
+\nby environment" <<cluster>>
+end box
+
+
+group #E6FFDB Publish Components
+Actor -> job1
+activate job1
+job1 -> class1
+activate class1
+class1 --> job1: <font color=green><b>SUCCESS</b></font>
+else #FFCCB8 Publish Failure
+class1 --x job1: <font color=red><b>FAILURE</b></font>
+deactivate class1
+deactivate job1
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job2
+activate job2
+job2 -> class2
+activate class2
+class2 -> script1
+activate script1
+script1 -> s3
+script1 --> class2
+deactivate script1
+class2 -> script2
+activate script2
+script2 --> class2
+deactivate script2
+class2 --> job2: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+class2 -> script3
+activate script3
+script3 --> class2
+deactivate script3
+class2 --x job2: <font color=red><b>FAILURE</b></font>
+deactivate class2
+deactivate job2
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job3
+activate job3
+job3 -> class3
+activate class3
+class3 -> pipeline1:
+activate pipeline1
+pipeline1 --> class3
+deactivate pipeline1
+class3 -> script4
+activate script4
+script4 -> s3
+activate s3
+s3 --> script4
+deactivate s3
+script4 -> ecs
+activate ecs
+ecs --> script4
+deactivate ecs
+script4 -> script2
+activate script2
+script2 --> script4
+deactivate script2
+script4 --> class3
+class3 --> job3: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+script4 -> ecs
+activate ecs
+ecs --> script4
+deactivate ecs
+script4 --> class3
+deactivate script4
+class3 --x job3: <font color=red><b>FAILURE</b></font>
+deactivate class3
+deactivate job3
+end Deploy Services
+
+
+
+@enduml
+
+```
+
 
 ### Choosing colors 
 
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightgreen:svg
+```scala mdoc:plantuml:@RESOURCES@/colors-lightgreen:svg
 
 @startuml
 colors LightGreen
@@ -193,7 +347,7 @@ colors LightGreen
 ```
 
 
-```scala mdoc:plantuml:modules/docs/src/main/resources/colors-lightblue:svg
+```scala mdoc:plantuml:@RESOURCES@/colors-lightblue:svg
 
 @startuml
 colors LightBlue
