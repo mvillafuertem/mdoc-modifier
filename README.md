@@ -4,7 +4,7 @@ WITH THE COMMAND `sbt mdoc-modifier-docs/mdoc`
 
 ---
 
-<p align="center" style="font-size:.85em">:bowtie:</p>
+<i align="center" style="font-size:.85em">:bowtie:</i>
 <h1 align="center">Mdoc Modifier 0.1</h1>
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HE7K7HLJJBVWN&currency_code=EUR&source=url">
@@ -185,8 +185,8 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-![modules/docs/src/main/resources/result1.png](modules/docs/src/main/resources/result1.png)
-![modules/docs/src/main/resources/result2.png](modules/docs/src/main/resources/result2.png)
+![modules/docs/src/main/resources/result1.svg](modules/docs/src/main/resources/result1.svg)
+![modules/docs/src/main/resources/result2.svg](modules/docs/src/main/resources/result2.svg)
 
 ### Choosing colors 
 

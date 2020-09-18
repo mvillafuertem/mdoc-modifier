@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1009px" preserveAspectRatio="none" style="width:1618px;height:1009px;" version="1.1" viewBox="0 0 1618 1009" width="1618px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qaknjehcom7w" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="149" x="731.5" y="27.4023">Deploy Processes</text><rect fill="#C45543" height="959.373" style="stroke: #FFFFFF; stroke-width: 1.0;" width="300" x="86" y="39.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="196" y="58.5352">jenkins</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="276" y="60.0117"/><rect fill="#6E9BB9" height="959.373" style="stroke: #FFFFFF; stroke-width: 1.0;" width="410" x="388" y="39.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="554.5" y="58.5352">project</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="631.5" y="60.0117"/><rect fill="#F7CB4B" height="959.373" style="stroke: #FFFFFF; stroke-width: 1.0;" width="457" x="800" y="39.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="990" y="58.5352">project</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="1067" y="60.0117"/><rect fill="#2C507D" height="959.373" style="stroke: #FFFFFF; stroke-width: 1.0;" width="95" x="1259" y="39.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1268" y="58.5352">project</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="1345" y="60.0117"/><rect fill="#8CB77C" height="959.373" style="stroke: #FFFFFF; stroke-width: 1.0;" width="237" x="1356" y="39.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="1444" y="58.5352">cloud</text><text fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="1505" y="60.0117"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="85.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="135" y="225.6767"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="183.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="230" y="356.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="267.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="326" y="584.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="71.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="459.5" y="239.6767"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="169.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="600" y="370.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="253.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="728.5" y="598.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="28" style="stroke: #000000; stroke-width: 1.0;" width="10" x="839" y="384.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="926.5" y="426.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="926.5" y="710.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1013.5" y="497.2959"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="183.0879" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1109.5" y="640.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1301.5" y="612.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1405.5" y="654.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1525" y="682.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1525" y="795.8271"/><rect fill="#E6FFDB" filter="url(#f1qaknjehcom7w)" height="116.5313" style="stroke: #000000; stroke-width: 2.0;" width="534" x="13" y="202.3662"/><rect fill="#FFCCB8" height="43.0879" style="stroke: none; stroke-width: 1.0;" width="534" x="13" y="275.8095"/><rect fill="#E6FFDB" filter="url(#f1qaknjehcom7w)" height="214.5313" style="stroke: #000000; stroke-width: 2.0;" width="1458" x="13" y="332.8974"/><rect fill="#FFCCB8" height="71.0879" style="stroke: none; stroke-width: 1.0;" width="1458" x="13" y="476.3408"/><rect fill="#E6FFDB" filter="url(#f1qaknjehcom7w)" height="298.5313" style="stroke: #000000; stroke-width: 2.0;" width="1586" x="13" y="561.4287"/><rect fill="#FFCCB8" height="85.0879" style="stroke: none; stroke-width: 1.0;" width="1586" x="13" y="774.872"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="51" x2="51" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="140" x2="140" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="235" x2="235" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="331" x2="331" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="464" x2="464" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="605" x2="605" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="733" x2="733" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="844" x2="844" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="931" x2="931" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1018" x2="1018" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1114" x2="1114" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1212" x2="1212" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1306" x2="1306" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1410" x2="1410" y1="185.3662" y2="876.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1530" x2="1530" y1="185.3662" y2="876.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="23" y="165.9248">«client»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="30" y="182.4131">Actor</text><ellipse cx="51.5" cy="95.3896" fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><path d="M51.5,103.3896 L51.5,130.3896 M38.5,111.3896 L64.5,111.3896 M51.5,130.3896 L38.5,145.3896 M51.5,130.3896 L64.5,145.3896 " fill="none" filter="url(#f1qaknjehcom7w)" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="23" y="889.4951">«client»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="30" y="905.9834">Actor</text><ellipse cx="51.5" cy="918.9365" fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><path d="M51.5,926.9365 L51.5,953.9365 M38.5,934.9365 L64.5,934.9365 M51.5,953.9365 L38.5,968.9365 M51.5,953.9365 L64.5,968.9365 " fill="none" filter="url(#f1qaknjehcom7w)" style="stroke: #000000; stroke-width: 2.0;"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="96" x="90" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="120" y="103.2891">«job»</text><image height="48" width="48" x="114" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="97" y="168.2422">Components</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="96" x="90" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="120" y="896.4951">«job»</text><image height="48" width="48" x="114" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="97" y="961.4482">Components</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="66" x="200" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="215" y="103.2891">«job»</text><image height="48" width="48" x="209" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="207" y="168.2422">Services</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="66" x="200" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="215" y="896.4951">«job»</text><image height="48" width="48" x="209" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="207" y="961.4482">Services</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="98" x="280" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="311" y="103.2891">«job»</text><image height="48" width="48" x="305" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="287" y="168.2422">Deployments</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="98" x="280" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="311" y="896.4951">«job»</text><image height="48" width="48" x="305" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADxklEQVR4Xu2XPWsUURSG89/8AzaWFpaCtfbaay3WQkoLOytB0EJBJEUIEbZYQoQUgim2CFwf78uePXtm7tfuQizysgyzd+7MfeZ83jlK/5mO4sBt6w6opQMA3Vz/ufr8cfnuWL/rn2dxxoj2Arr88P77s8efHtw7efEUFP5yPH35/Muj++evX8XZfdoR6PePbywMAcdZk0AGK8aLF1raBWjx9g3rsRgn8ZoT0F+fPBxlGgaSX1a/LjiJ1yaCGBPG0arGgOAgPuQssGyciJlaiznEFhE2ZKQxIMKChNK5EUAD6GbStgJ6UwNAvChA9tdcNhvUXlPjVTQAJBfoHJMQs9vXN2TeYEwbKgG9QHgK88hlrMGSs24y7+hE1YHXMEc31QXEq4PC04lo7KS0D2twVeVRf1WymQM3FuL2pmelLiDKCc+FQ2+sotd8aWYqv7iR23lInDGnNhCPU/yq/MDU+a7QKOYU1DJtnDRRA4iH2pvB0ZPAFlvquMkFVk/hbgAtc8u0vwrPupGs88ucmq9LGt+eHtUACg2ScyKU0HZTNlL8Aq1Sjj1CzodKNqsaUOl+ljS/+OTHGFiOuzhqXKlgE1KH12pApZpmwZHyHO8+xsG1wuPRpdJ2xVQD8gt7hRzGO7NFEtvg3PCE5aSABdWAWGm6x1Bw8OreeEpp84XKOjTKfO+1kCVTNYD8+2FqX4vVE5Z5z6ptKzsNODTOCZeE4pn2AiI+/B6DNYJrsAQTrOOqeyzcpsxutzk8Z9qVvWpALK8HsXBl4xc84ifLnDzH7DoN86AaUMpZmsr5L/k3Vp/RRgUIxZmP+mZHawBZltY/IVhS7gNChUCBoqOFf6mOeDWA1N5TIePMNtBYlICljYcq5I37OOFR9QBKTaCUbYPBrXV7WUVRtMmELKmfrpq/OFb8bmoDKduTyxSTf12mKf91gmvEJ6twVPXa3FxQGyjlILAINcmJrLpad/XL/CFLNeLH8qoUnFsg4rt6mU6dQCmbx29DZTatqohWLPNTNWJE3X6Rt4uy5azfg3qB0vZHmTQNc0njGMYqkKI75YeEyUEDQHKKH6kDyUFKsdX6K6VSYKUBIMweWncJSDm/zPtD+VS5xuAhgVb5w37hurqCenvWP6kOKag50bl6XL1vpCGglKNykXc56pEAzRY6gJjQ3BzOagzIdJU7qPYY8dr6Q/t0/V02pB2BpFIaM66AszLRr72AUjmNz/Pnxy0Aqb3H0Qy6A03aH0ipd5K32Np+yDbN9C5pXyDJ2pl6SDO3KzoM0AF1B9TSXxBBhKmFiTGnAAAAAElFTkSuQmCC" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="287" y="961.4482">Deployments</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="141" x="392" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="436.5" y="103.2891">«script»</text><image height="48" width="48" x="438.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="399" y="168.2422">components.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="141" x="392" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="436.5" y="896.4951">«script»</text><image height="48" width="48" x="438.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="399" y="961.4482">components.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="112" x="547" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="577" y="103.2891">«script»</text><image height="48" width="48" x="579" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="554" y="168.2422">services.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="112" x="547" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="577" y="896.4951">«script»</text><image height="48" width="48" x="579" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="554" y="961.4482">services.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="117" x="673" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="705.5" y="103.2891">«script»</text><image height="48" width="48" x="707.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="680" y="168.2422">promote.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="117" x="673" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="705.5" y="896.4951">«script»</text><image height="48" width="48" x="707.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACJ0lEQVR4Xu2VMUsEMRBG7xdbW9taW1kIVloJFoKgNiKCCGIhooWCIghqoYUgFutjH4SY29vk1kMPyUc4ksls8mYyyY2aOdMoNfy1KlBOFSinCpRTBcqpAuVUgXL6p0B3T6+01DpIswFa2Tld2z9PrYM0A6Cjy/uzm8erhxc66dz0mgLo+e19eet4afOQ7YPx/eMz5IYOwzA1TKVA0ICyuH6wcXjBAQU7Q6aCD8MwNUylQOSGJlBICYW8fXIdu+2d3/6wuouAgCA9VIlAkLErQzocH4khZ5BhDGfKEG6qCn+G9EMi+9UBxCpuwJaWqumRgKVpZgs3z5HEYFlY3cWZWSwMMdrBjifNBWkszhCH8ZrrAGraUnVpvqTxJYu6q6xwMCR0c4YFB0+TKd3Mluh2SFLI3DiK6gYKsk5ZhV8DZWmOhr6h08wcfLjhL6hM5tIAaPENmKQMkDJcmzVrwtiYbXx++MWIxYeAvjnwE/oeWbLyuIqA2NXoHVq8y21VeRYhelDYGDjLGYvoTftK2elXERBLmwaLAAIitjZ7LrmVR6OGpJkZUNNm3joIj1CsSX+uRiI3H87syILiN7ppLyNBe2vsxDcZowRY4ue0X1MAsVkIkQ570JLEMHRv3xsC8FGN//76VQrk/Y9Tknp8l6+zV6HktgeVAvnUxnetRF4Cv03nJqgIiHXLc94p//JSa5eKgH5TFSinCpRTBcqpAuVUgXKqQDnNHdAXfIQqsYxJgfIAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="680" y="961.4482">promote.groovy</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="76" x="804" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="816" y="103.2891">«script»</text><image height="48" width="48" x="818" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABKklEQVR4Xu3YPQ6CQBAFYO7nATyAx/AAHszSgsTOwprOQgqFIONSkMz+vOwu2V0gmZepNkPeF7AwW9HGUpkHa0dAvgjIFws0tP3z8rkdCkz/OI9dY/TroKH91kf7yXyj6lQpJ2igYu+GjyrlBg1kb5cZbhCQa7hBQK7hBgji5zmCugQ0B3XtEPR7Xfm5GnXCHloYZxeFgCiPCXUFgSiDCXWFgii1CXVFgCipCXXFgSidCXVFg8hpetfmki+oawmILFN3P5kbvqCuNKDpn2hkUNcSkOOTxf+MUFc0KImGcFccKJWGcFcEKERjLBiDNvl5KChEQ8VAgRoqAwrXUBlQpqAuAc1BXfsBlRxu0ECbu44Zu2ZbF1ZTSl7pqXeja8gBWjsC8kVAvmwO9Ad1YQRN2evvMwAAAABJRU5ErkJggg==" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="811" y="168.2422">deploy.sh</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="76" x="804" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="816" y="896.4951">«script»</text><image height="48" width="48" x="818" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABKklEQVR4Xu3YPQ6CQBAFYO7nATyAx/AAHszSgsTOwprOQgqFIONSkMz+vOwu2V0gmZepNkPeF7AwW9HGUpkHa0dAvgjIFws0tP3z8rkdCkz/OI9dY/TroKH91kf7yXyj6lQpJ2igYu+GjyrlBg1kb5cZbhCQa7hBQK7hBgji5zmCugQ0B3XtEPR7Xfm5GnXCHloYZxeFgCiPCXUFgSiDCXWFgii1CXVFgCipCXXFgSidCXVFg8hpetfmki+oawmILFN3P5kbvqCuNKDpn2hkUNcSkOOTxf+MUFc0KImGcFccKJWGcFcEKERjLBiDNvl5KChEQ8VAgRoqAwrXUBlQpqAuAc1BXfsBlRxu0ECbu44Zu2ZbF1ZTSl7pqXeja8gBWjsC8kVAvmwO9Ad1YQRN2evvMwAAAABJRU5ErkJggg==" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="811" y="961.4482">deploy.sh</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="71" x="894" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="903.5" y="103.2891">«script»</text><image height="48" width="48" x="905.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="901" y="168.2422">check.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="71" x="894" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="903.5" y="896.4951">«script»</text><image height="48" width="48" x="905.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="901" y="961.4482">check.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="75" x="979" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="990.5" y="103.2891">«script»</text><image height="48" width="48" x="992.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="986" y="168.2422">delete.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="75" x="979" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="990.5" y="896.4951">«script»</text><image height="48" width="48" x="992.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="986" y="961.4482">delete.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="89" x="1068" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="1086.5" y="103.2891">«script»</text><image height="48" width="48" x="1088.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1075" y="168.2422">promote.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="89" x="1068" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="1086.5" y="896.4951">«script»</text><image height="48" width="48" x="1088.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1075" y="961.4482">promote.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="78" x="1171" y="82.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="1184" y="103.2891">«script»</text><image height="48" width="48" x="1186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="106.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="1178" y="168.2422">deploy.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="97.6123" style="stroke: #000000; stroke-width: 1.5;" width="78" x="1171" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="1184" y="896.4951">«script»</text><image height="48" width="48" x="1186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACM0lEQVR4Xu2YTU4CQRCFuZ8H8AAcgAN4AA/gATiAB/AALF2QsCAxxsQFCQsTFhqD4GD7uhs6Y1VX9Y9DIDovb8E0PV1famqqGwbmzDSgA6dWD5RSD5TSHwL62ix3q8nnYmz9fGO9GDfLWwziKzo7WzVACPwxvVzfXyjezEd1WMVAyIQPmWSCK5iKgXyk3esUn/GAOETbyBO9P6VCoOZt7XLjr5AADkH88/60yoACQfNyB7jw+BRjGl1FVSVQvv8ZkBUCxMxRjgKELrd9uEIVJ81RAtBmNgzTtk/Xei/QgIDCA5QaQAQXl0raRKCcNyjHHAjG4jTeQQKQXBOljgLZcUFxIJQOX6LO5tDciX2v54oDYfvkS1QYJYzAfBzGtkOjOsWBOilnvFz2FZuP+Fdrx0qjOsWBpFXaRjxMk4wcgwZR+Y3724V9VwCaDfkSwTbbrhmio8T9/ojNTl/E5i8mAUjOEIKhLPRgOS7LkJRqe0IVirTUKFMa1SkOJJ28/D7Axytc9pZF0+DfGj5eZzx6GtUpDgTx9gqgiuNH1FJFGwWIP7UOgbAT0HgHiUCGlXZXQFJL9NKAjCum9u9ABWg/R/dirOTGKwFEpAChE0ZNl0ipMyDJylksqqMAtffm0wP5g06YeVwgI5y22g4E+8tCFQMlz9p4XkiSbxnK2VlSMZBh/Umy3m8k1QAZ15+UU6VPEr0nT5VAQfZ4tJpgn0HLsf+dCVtmvn4L1Ll6oJR6oJTODugbRwpDgqBTj9oAAAAASUVORK5CYII=" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="64" x="1178" y="961.4482">deploy.py</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="78.4883" style="stroke: #000000; stroke-width: 1.5;" width="83" x="1263" y="101.8779"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="1270" y="122.4131">«pipeline»</text><image height="48" width="48" x="1280.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAC3ElEQVR4Xu2YvYoVQRCF94HmDXyCzcxMTIXNNxYxMTHYTKMFMRNBMFxTEQMjQTONFmEjQRAM248pprxUdZ/uGQdcZA8V3NvTVXW6u36m56hcMxzFgX+NG0I9/C+Efvz8dXn1/f3HrxfvPiEvLz4g9ptBHjEh6oxhlBA+cPnwyes7p0+n2/cHhcmooIh6tNhAhxALPX/19vjkLDtbKxjBVHfnFKGz52+y3Wle9+njFzzFgZ+UHxyDPGJCaxk8jZ4O0CSUj4bNJz7ivB5QQTGYwnict6BOKO8NS4+T1oBtCwZb+1QnxIYH/Vt3H41EQAYqLAb1YBAXceqMOqG8IBciwwIINxwH8vnLN5II4YeNEE8WRvncXXARvc6oE8JiNrGv4CJ6nVEnxHKziX2lVZnqhEA2sa9EfwuahFpVZBfBePS3oEno3oNn2dBegvHob0GTUC5FQsjqnNhCWkWoCEJkdTaUBdNenPgxuIxWihVBiKKSDQWpdhIG88wgGI9qC5qESi/RvLKRwGzMYacTddXkj48ERUgnms0JFctbXp7vIlKsaEIi0bxdh05OaNu4aBoixYomJCLUjeY2bONiMSLFiiYkOprvREhG7+GiCogUK5qQ7mgewr6R7IqVAJ1orS5mUITK1tgcyYYWOoREKExzaIfl8lez0RFduoQ4Au1gWu46IzckTHXfOTuEyswpv6VvEIxE0zX0CRk4CyyK3GkJKijqQD5EnxBJhFHPVdoQnYFQEEfJIyYwzXsW6hjRFcjQJ+SVBje5hNglH8f2qp9DBBWnPnKX6hPKbZ/qp6/rl/OHgFzERZN39AkVWY04CJKLA0L4oYMs2q1hiJAIl3ERhfQQQ4Ty5m+Q1lU1YIhQ94VrRFpX1YAhQuROdrBWcgJWMUSo9Bp4V6pv31WMEipbewgqg3tjWEHIYJ9XxAeyaflCQklcRcWwmlAALq1Mm2xgEPC3hHbHDaEerh2h33w5a93b2fIKAAAAAElFTkSuQmCC" y="125.3662"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="78.4883" style="stroke: #000000; stroke-width: 1.5;" width="83" x="1263" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="69" x="1270" y="896.4951">«pipeline»</text><image height="48" width="48" x="1280.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAC3ElEQVR4Xu2YvYoVQRCF94HmDXyCzcxMTIXNNxYxMTHYTKMFMRNBMFxTEQMjQTONFmEjQRAM248pprxUdZ/uGQdcZA8V3NvTVXW6u36m56hcMxzFgX+NG0I9/C+Efvz8dXn1/f3HrxfvPiEvLz4g9ptBHjEh6oxhlBA+cPnwyes7p0+n2/cHhcmooIh6tNhAhxALPX/19vjkLDtbKxjBVHfnFKGz52+y3Wle9+njFzzFgZ+UHxyDPGJCaxk8jZ4O0CSUj4bNJz7ivB5QQTGYwnict6BOKO8NS4+T1oBtCwZb+1QnxIYH/Vt3H41EQAYqLAb1YBAXceqMOqG8IBciwwIINxwH8vnLN5II4YeNEE8WRvncXXARvc6oE8JiNrGv4CJ6nVEnxHKziX2lVZnqhEA2sa9EfwuahFpVZBfBePS3oEno3oNn2dBegvHob0GTUC5FQsjqnNhCWkWoCEJkdTaUBdNenPgxuIxWihVBiKKSDQWpdhIG88wgGI9qC5qESi/RvLKRwGzMYacTddXkj48ERUgnms0JFctbXp7vIlKsaEIi0bxdh05OaNu4aBoixYomJCLUjeY2bONiMSLFiiYkOprvREhG7+GiCogUK5qQ7mgewr6R7IqVAJ1orS5mUITK1tgcyYYWOoREKExzaIfl8lez0RFduoQ4Au1gWu46IzckTHXfOTuEyswpv6VvEIxE0zX0CRk4CyyK3GkJKijqQD5EnxBJhFHPVdoQnYFQEEfJIyYwzXsW6hjRFcjQJ+SVBje5hNglH8f2qp9DBBWnPnKX6hPKbZ/qp6/rl/OHgFzERZN39AkVWY04CJKLA0L4oYMs2q1hiJAIl3ERhfQQQ4Ty5m+Q1lU1YIhQ94VrRFpX1YAhQuROdrBWcgJWMUSo9Bp4V6pv31WMEipbewgqg3tjWEHIYJ9XxAeyaflCQklcRcWwmlAALq1Mm2xgEPC3hHbHDaEerh2h33w5a93b2fIKAAAAAElFTkSuQmCC" y="899.4482"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="113.6123" style="stroke: #000000; stroke-width: 1.5;" width="97" x="1360" y="66.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1378.5" y="87.2891">«bucket»</text><image height="64" width="64" x="1376.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAADdUlEQVR4Xu1asYrbQBC9//+StMHdli6dIhiuUZHAcYS4OI6kSQwpLg89NIy1lvRm1kYYJB5Bt5Jm9s2M3s7KeSrPnx8aT/XQY2EjsDY2AmtjI7A2NgLT2H39VA/eHK0E/Cz3XTl83wPH1y8jYBBXAXvqVvQyBOgbs8HMup/Pp98/zv/+fmgH7vz15/3l7RtZ1cajCBPAvDFpTKKeGZhgZgBuGAGDuIqnRlT5FMiUbMkFCCBgcOZ914FkbUyB97DS8KBPHU7As3a6CJUA5uo9sZpzMSPsWR8XGI/WlUSADmC9JdfzQESMRojDMgFMGkZRvvBxj6kbYNx81VensEAARlEwMArTd509ARd8K0xwF6ESSFRnCIyO+apvmMICgTKUEA+UKWncKhu0Q2k2RbplCZVeJRgV034TUJ9oL5RTqMV0tKTwHGGqn53CMgF4sqhQvM2feeUShtlwWbgKLtu47epyhnFSwp84X4yFYZkAAAesSy/eXbCJ8Afz6dPI5CQEQyLAzI6UwReDLa6McQ02FMyP2RnNEn9yuQypxTIB2GXZKHYZSA8/WN8/Ah3pGlpEApbZ+uptEV0EikKgDEoKGkoU7RG+3KHZ8PWox2cgEaA46OpG4eKhS4qXOx0SgahpEvYclDwkNLSIBIpTUhHWwOo0EoVadAJXlXQevHl/2SZMNSO7QUPxb21qBioBXUlrcK6+a8BJN+yKDLltjUTAwtOipKRxuNyX+oRYI8RLnbbDVAlwKYgW6BQQe0TE6oq9EE9KT5KXlDxIBEpWImZAO3V3yOpiNhR3KgEqqb4URMEM+0N8E1QCJbVMikCYLcPsCw+u55tHgADrsh5vh71joUaaCBBILAUiTOWUmhlBJdDiQ0E6OgEC6SwrSNenSqAMvYoibVFQ4nIKESBAobiHkrZodIBAtKnW0bJKBgiUeFOtYDd8Es31KTECaa2YgelbrlMMENhFPk+E0GI2RqAlVDNoSWyAQLmDksJOi4aWKAE444pjG9w0Ez6IsrHOub5HQYxAcbuNj165IR2+c9xVX+YMZmHf/z7rNzS5FYAIEyD8Pp3Huf9eexo+U3f9l1CevPSfR0/XfmbFSOMblSRgBdD136htt754nIefk4+XPy+kkSRgGNUG9yJH4b8a1KZyaCWwOjYCa2MjsDY2AmtjI7A2Hp7Af+mC+K2s8VYPAAAAAElFTkSuQmCC" y="90.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="1367" y="168.2422">deployments</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="113.6123" style="stroke: #000000; stroke-width: 1.5;" width="97" x="1360" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1378.5" y="896.4951">«bucket»</text><image height="64" width="64" x="1376.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAADdUlEQVR4Xu1asYrbQBC9//+StMHdli6dIhiuUZHAcYS4OI6kSQwpLg89NIy1lvRm1kYYJB5Bt5Jm9s2M3s7KeSrPnx8aT/XQY2EjsDY2AmtjI7A2NgLT2H39VA/eHK0E/Cz3XTl83wPH1y8jYBBXAXvqVvQyBOgbs8HMup/Pp98/zv/+fmgH7vz15/3l7RtZ1cajCBPAvDFpTKKeGZhgZgBuGAGDuIqnRlT5FMiUbMkFCCBgcOZ914FkbUyB97DS8KBPHU7As3a6CJUA5uo9sZpzMSPsWR8XGI/WlUSADmC9JdfzQESMRojDMgFMGkZRvvBxj6kbYNx81VensEAARlEwMArTd509ARd8K0xwF6ESSFRnCIyO+apvmMICgTKUEA+UKWncKhu0Q2k2RbplCZVeJRgV034TUJ9oL5RTqMV0tKTwHGGqn53CMgF4sqhQvM2feeUShtlwWbgKLtu47epyhnFSwp84X4yFYZkAAAesSy/eXbCJ8Afz6dPI5CQEQyLAzI6UwReDLa6McQ02FMyP2RnNEn9yuQypxTIB2GXZKHYZSA8/WN8/Ah3pGlpEApbZ+uptEV0EikKgDEoKGkoU7RG+3KHZ8PWox2cgEaA46OpG4eKhS4qXOx0SgahpEvYclDwkNLSIBIpTUhHWwOo0EoVadAJXlXQevHl/2SZMNSO7QUPxb21qBioBXUlrcK6+a8BJN+yKDLltjUTAwtOipKRxuNyX+oRYI8RLnbbDVAlwKYgW6BQQe0TE6oq9EE9KT5KXlDxIBEpWImZAO3V3yOpiNhR3KgEqqb4URMEM+0N8E1QCJbVMikCYLcPsCw+u55tHgADrsh5vh71joUaaCBBILAUiTOWUmhlBJdDiQ0E6OgEC6SwrSNenSqAMvYoibVFQ4nIKESBAobiHkrZodIBAtKnW0bJKBgiUeFOtYDd8Es31KTECaa2YgelbrlMMENhFPk+E0GI2RqAlVDNoSWyAQLmDksJOi4aWKAE444pjG9w0Ez6IsrHOub5HQYxAcbuNj165IR2+c9xVX+YMZmHf/z7rNzS5FYAIEyD8Pp3Huf9eexo+U3f9l1CevPSfR0/XfmbFSOMblSRgBdD136htt754nIefk4+XPy+kkSRgGNUG9yJH4b8a1KZyaCWwOjYCa2MjsDY2AmtjI7A2Hp7Af+mC+K2s8VYPAAAAAElFTkSuQmCC" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="1367" y="977.4482">deployments</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="113.6123" style="stroke: #000000; stroke-width: 1.5;" width="114" x="1471" y="66.7539"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1498" y="87.2891">«cluster»</text><image height="64" width="64" x="1496" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACg0lEQVR4Xu2az0oDMRCH++y+gY/gCwjevOrZgzeveg6FRSiIUOrgjw7TTDaZ/F0WIt+h3d2k+Sa/ZLfFg3u82zUHfWhfTIGtmQJbMwW2pqPA8fnee9GDLgLL68Ov+zyfFho6QS/oLR3UV9bTWICG+/P1frn+0aAJfkunms9GMwEa2enjBQOlkhNSAG/xgi7TzYtpI/D99sRDRJkxDywgD0KjVaJqBRB3DEsGXQvEry+mXMCrKE2CPLsmAOSMUaJqFkaJAOIeH0FcgDtZ87eTLUAD8uKur3EGAe6tMlEZAlkfZhQAeg/Q16xhEiiY7iwBZ4tlkLSAzIyxX64oCxi1C7batABqn8wMkDFDGAh78LxOLLc8q0Dyg+PFy0055m2QgLdC1mKWtZDGCeSWVk5UJFGDBCxDCeItleAF3QWolhhBPAwRqCF60PM2ToDyo5vYQfymQJQpEGMKTIEpMAX0IY8BAvpevhuBtaepoQL6VBbB59kRAk7Uz/IgLVmuv/4iPEf1VQHPed0F3O2D8Wnlq4zkePvr70WER57CnIwQAByDSKJkmXnc3FCGR1ZE9+PRRsDd1k9/v5FB5+RwQxbjEdMF1InenTRWAeouGQ+n6kdN5BE+qBuyf2QOg6QFsCHEP95D1pv/LAt9uf4GZak9SAs4tbwsvctg6EQFKZsEkwCQYbCPyXgZ21omSpIhAIL3nRq4Q2NRPLIFnNoQjQtDw1NqjGWQEgFQsDCCbYv9QbkAKFgY+uZVQ60AMC4M3iWNqhbaCLhUouQWmRW2JM0EgE6UXPGVcQ/SWADoO3EkV5V0EXDXrfb8/z8HreIepJcA6FR1SV+BAUyBrZkCWzMFtmb3An+L2jjrwqbTAQAAAABJRU5ErkJggg==" y="90.2422"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="1478" y="168.2422">by environment</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="113.6123" style="stroke: #000000; stroke-width: 1.5;" width="114" x="1471" y="875.9599"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="60" x="1498" y="896.4951">«cluster»</text><image height="64" width="64" x="1496" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACg0lEQVR4Xu2az0oDMRCH++y+gY/gCwjevOrZgzeveg6FRSiIUOrgjw7TTDaZ/F0WIt+h3d2k+Sa/ZLfFg3u82zUHfWhfTIGtmQJbMwW2pqPA8fnee9GDLgLL68Ov+zyfFho6QS/oLR3UV9bTWICG+/P1frn+0aAJfkunms9GMwEa2enjBQOlkhNSAG/xgi7TzYtpI/D99sRDRJkxDywgD0KjVaJqBRB3DEsGXQvEry+mXMCrKE2CPLsmAOSMUaJqFkaJAOIeH0FcgDtZ87eTLUAD8uKur3EGAe6tMlEZAlkfZhQAeg/Q16xhEiiY7iwBZ4tlkLSAzIyxX64oCxi1C7batABqn8wMkDFDGAh78LxOLLc8q0Dyg+PFy0055m2QgLdC1mKWtZDGCeSWVk5UJFGDBCxDCeItleAF3QWolhhBPAwRqCF60PM2ToDyo5vYQfymQJQpEGMKTIEpMAX0IY8BAvpevhuBtaepoQL6VBbB59kRAk7Uz/IgLVmuv/4iPEf1VQHPed0F3O2D8Wnlq4zkePvr70WER57CnIwQAByDSKJkmXnc3FCGR1ZE9+PRRsDd1k9/v5FB5+RwQxbjEdMF1InenTRWAeouGQ+n6kdN5BE+qBuyf2QOg6QFsCHEP95D1pv/LAt9uf4GZak9SAs4tbwsvctg6EQFKZsEkwCQYbCPyXgZ21omSpIhAIL3nRq4Q2NRPLIFnNoQjQtDw1NqjGWQEgFQsDCCbYv9QbkAKFgY+uZVQ60AMC4M3iWNqhbaCLhUouQWmRW2JM0EgE6UXPGVcQ/SWADoO3EkV5V0EXDXrfb8/z8HreIepJcA6FR1SV+BAUyBrZkCWzMFtmb3An+L2jjrwqbTAQAAAABJRU5ErkJggg==" y="899.4482"/><text fill="#000000" font-family="Avenir-Medium" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="1478" y="977.4482">by environment</text><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="85.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="135" y="225.6767"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="183.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="230" y="356.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="267.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="326" y="584.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="71.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="459.5" y="239.6767"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="169.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="600" y="370.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="253.2207" style="stroke: #000000; stroke-width: 1.0;" width="10" x="728.5" y="598.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="28" style="stroke: #000000; stroke-width: 1.0;" width="10" x="839" y="384.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="926.5" y="426.208"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="926.5" y="710.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1013.5" y="497.2959"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="183.0879" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1109.5" y="640.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1301.5" y="612.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1405.5" y="654.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1525" y="682.7392"/><rect fill="#FFFFFF" filter="url(#f1qaknjehcom7w)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="1525" y="795.8271"/><path d="M13,202.3662 L197,202.3662 L197,209.3662 L187,219.3662 L13,219.3662 L13,202.3662 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="116.5313" style="stroke: #000000; stroke-width: 2.0;" width="534" x="13" y="202.3662"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="28" y="215.9345">Publish Components</text><polygon fill="#000000" points="123,221.6767,133,225.6767,123,229.6767,127,225.6767" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="51.5" x2="129" y1="225.6767" y2="225.6767"/><polygon fill="#000000" points="447.5,235.6767,457.5,239.6767,447.5,243.6767,451.5,239.6767" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="145" x2="453.5" y1="239.6767" y2="239.6767"/><polygon fill="#000000" points="156,263.8095,146,267.8095,156,271.8095,152,267.8095" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="150" x2="458.5" y1="267.8095" y2="267.8095"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="162" y="263.2783">SUCCESS</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="547" y1="276.8095" y2="276.8095"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="18" y="287.4443">[Publish Failure]</text><line style="stroke: #000000; stroke-width: 2.0;" x1="146" x2="156" y1="305.8974" y2="315.8974"/><line style="stroke: #000000; stroke-width: 2.0;" x1="146" x2="156" y1="315.8974" y2="305.8974"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="152" x2="463.5" y1="310.8974" y2="310.8974"/><text fill="#FF0000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="157" y="306.3662">FAILURE</text><path d="M13,332.8974 L164,332.8974 L164,339.8974 L154,349.8974 L13,349.8974 L13,332.8974 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="214.5313" style="stroke: #000000; stroke-width: 2.0;" width="1458" x="13" y="332.8974"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="28" y="346.4658">Deploy Services</text><polygon fill="#000000" points="218,352.208,228,356.208,218,360.208,222,356.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="51.5" x2="224" y1="356.208" y2="356.208"/><polygon fill="#000000" points="588,366.208,598,370.208,588,374.208,592,370.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="240" x2="594" y1="370.208" y2="370.208"/><polygon fill="#000000" points="827,380.208,837,384.208,827,388.208,831,384.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="610" x2="833" y1="384.208" y2="384.208"/><polygon fill="#000000" points="1398.5,394.208,1408.5,398.208,1398.5,402.208,1402.5,398.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="849" x2="1404.5" y1="398.208" y2="398.208"/><polygon fill="#000000" points="621,408.208,611,412.208,621,416.208,617,412.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="615" x2="843" y1="412.208" y2="412.208"/><polygon fill="#000000" points="914.5,422.208,924.5,426.208,914.5,430.208,918.5,426.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="610" x2="920.5" y1="426.208" y2="426.208"/><polygon fill="#000000" points="621,436.208,611,440.208,621,444.208,617,440.208" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="615" x2="930.5" y1="440.208" y2="440.208"/><polygon fill="#000000" points="251,464.3408,241,468.3408,251,472.3408,247,468.3408" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="245" x2="599" y1="468.3408" y2="468.3408"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="257" y="463.8095">SUCCESS</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="1471" y1="477.3408" y2="477.3408"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="18" y="487.9756">[Deploy Failure]</text><polygon fill="#000000" points="1001.5,493.2959,1011.5,497.2959,1001.5,501.2959,1005.5,497.2959" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="610" x2="1007.5" y1="497.2959" y2="497.2959"/><polygon fill="#000000" points="621,507.2959,611,511.2959,621,515.2959,617,511.2959" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="615" x2="1017.5" y1="511.2959" y2="511.2959"/><line style="stroke: #000000; stroke-width: 2.0;" x1="241" x2="251" y1="534.4287" y2="544.4287"/><line style="stroke: #000000; stroke-width: 2.0;" x1="241" x2="251" y1="544.4287" y2="534.4287"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="247" x2="604" y1="539.4287" y2="539.4287"/><text fill="#FF0000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="252" y="534.8974">FAILURE</text><path d="M13,561.4287 L164,561.4287 L164,568.4287 L154,578.4287 L13,578.4287 L13,561.4287 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="298.5313" style="stroke: #000000; stroke-width: 2.0;" width="1586" x="13" y="561.4287"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="28" y="574.997">Deploy Services</text><polygon fill="#000000" points="314,580.7392,324,584.7392,314,588.7392,318,584.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="51.5" x2="320" y1="584.7392" y2="584.7392"/><polygon fill="#000000" points="716.5,594.7392,726.5,598.7392,716.5,602.7392,720.5,598.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="336" x2="722.5" y1="598.7392" y2="598.7392"/><polygon fill="#000000" points="1289.5,608.7392,1299.5,612.7392,1289.5,616.7392,1293.5,612.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="738.5" x2="1295.5" y1="612.7392" y2="612.7392"/><polygon fill="#000000" points="749.5,622.7392,739.5,626.7392,749.5,630.7392,745.5,626.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="743.5" x2="1305.5" y1="626.7392" y2="626.7392"/><polygon fill="#000000" points="1097.5,636.7392,1107.5,640.7392,1097.5,644.7392,1101.5,640.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="738.5" x2="1103.5" y1="640.7392" y2="640.7392"/><polygon fill="#000000" points="1393.5,650.7392,1403.5,654.7392,1393.5,658.7392,1397.5,654.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1119.5" x2="1399.5" y1="654.7392" y2="654.7392"/><polygon fill="#000000" points="1130.5,664.7392,1120.5,668.7392,1130.5,672.7392,1126.5,668.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1124.5" x2="1409.5" y1="668.7392" y2="668.7392"/><polygon fill="#000000" points="1513,678.7392,1523,682.7392,1513,686.7392,1517,682.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1119.5" x2="1519" y1="682.7392" y2="682.7392"/><polygon fill="#000000" points="1130.5,692.7392,1120.5,696.7392,1130.5,700.7392,1126.5,696.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1124.5" x2="1529" y1="696.7392" y2="696.7392"/><polygon fill="#000000" points="947.5,706.7392,937.5,710.7392,947.5,714.7392,943.5,710.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="941.5" x2="1108.5" y1="710.7392" y2="710.7392"/><polygon fill="#000000" points="1097.5,720.7392,1107.5,724.7392,1097.5,728.7392,1101.5,724.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="931.5" x2="1103.5" y1="724.7392" y2="724.7392"/><polygon fill="#000000" points="749.5,734.7392,739.5,738.7392,749.5,742.7392,745.5,738.7392" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="743.5" x2="1108.5" y1="738.7392" y2="738.7392"/><polygon fill="#000000" points="347,762.872,337,766.872,347,770.872,343,766.872" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="341" x2="727.5" y1="766.872" y2="766.872"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="353" y="762.3408">SUCCESS</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="1599" y1="775.872" y2="775.872"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="18" y="786.5068">[Deploy Failure]</text><polygon fill="#000000" points="1513,791.8271,1523,795.8271,1513,799.8271,1517,795.8271" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="1119.5" x2="1519" y1="795.8271" y2="795.8271"/><polygon fill="#000000" points="1130.5,805.8271,1120.5,809.8271,1130.5,813.8271,1126.5,809.8271" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1124.5" x2="1529" y1="809.8271" y2="809.8271"/><polygon fill="#000000" points="749.5,819.8271,739.5,823.8271,749.5,827.8271,745.5,823.8271" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="743.5" x2="1113.5" y1="823.8271" y2="823.8271"/><line style="stroke: #000000; stroke-width: 2.0;" x1="337" x2="347" y1="846.9599" y2="856.9599"/><line style="stroke: #000000; stroke-width: 2.0;" x1="337" x2="347" y1="856.9599" y2="846.9599"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="343" x2="732.5" y1="851.9599" y2="851.9599"/><text fill="#FF0000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="348" y="847.4287">FAILURE</text><!--MD5=[1a5a5062194ae060cec66353b0bb1e73]
+@startuml
+
+!pragma graphviz_dot jdot
+!define STDLIB https://raw.githubusercontent.com/plantuml/plantuml-stdlib/master
+!includeurl STDLIB/awslib/AWSCommon.puml
+!includeurl STDLIB/awslib/Storage/SimpleStorageServiceS3.puml
+!includeurl STDLIB/awslib/Compute/ElasticContainerService.puml
+!includeurl STDLIB/tupadr3/devicons/jenkins.puml
+!includeurl STDLIB/tupadr3/devicons/python.puml
+!includeurl STDLIB/tupadr3/devicons/groovy.puml
+!includeurl STDLIB/tupadr3/devicons/java.puml
+!includeurl STDLIB/tupadr3/devicons/jenkins.puml
+!includeurl STDLIB/tupadr3/devicons/git.puml
+!includeurl STDLIB/tupadr3/devicons/bitbucket.puml
+!includeurl STDLIB/material/console.puml
+
+title Deploy Processes
+
+skinparam sequence {
+    ParticipantFontName Avenir-Medium
+    ArrowColor #000
+    LifeLineBorderColor #000
+    LifeLineBackgroundColor #FFF
+    ActorBorderColor #000
+    ActorBackgroundColor #FFF
+    ParticipantBorderColor #000
+    ParticipantBackgroundColor #FFF
+    GroupBackgroundColor #FFF
+    ArrowFontColor #000
+    BoxFontColor #FFF
+    BoxBorderColor #FFF
+}
+
+actor Actor <<client>>
+
+box <size:20>jenkins</size> #C45543
+participant job1 as "<color:#C45543><$jenkins></color>\nComponents" <<job>>
+participant job2 as "<color:#C45543><$jenkins></color>\nServices" <<job>>
+participant job3 as "<color:#C45543><$jenkins></color>\nDeployments" <<job>>
+end box
+
+box <size:20>project</size> #6E9BB9
+participant class1 as "<color:#6E9BB9><$groovy></color>\ncomponents.groovy" <<script>>
+participant class2 as "<color:#6E9BB9><$groovy></color>\nservices.groovy" <<script>>
+participant class3 as "<color:#6E9BB9><$groovy></color>\npromote.groovy" <<script>>
+end box
+
+box <size:20>project</size> #F7CB4B
+participant script1 as "<color:#F7CB4B><$ma_console></color>\ndeploy.sh" <<script>>
+participant script2 as "<color:#F7CB4B><$python></color>\ncheck.py" <<script>>
+participant script3 as "<color:#F7CB4B><$python></color>\ndelete.py" <<script>>
+participant script4 as "<color:#F7CB4B><$python></color>\npromote.py" <<script>>
+participant script5 as "<color:#F7CB4B><$python></color>\ndeploy.py" <<script>>
+end box
+
+box <size:20>project</size> #2C507D
+participant pipeline1 as "<color:#2C507D><$bitbucket></color>" <<pipeline>>
+end box
+
+box <size:20>cloud</size> #8CB77C
+participant s3 as "<color:#8CB77C><$SimpleStorageServiceS3></color>\ndeployments" <<bucket>>
+
+participant ecs as "<color:#D86613><$ElasticContainerService></color>\nby environment" <<cluster>>
+end box
+
+
+group #E6FFDB Publish Components
+Actor -> job1
+activate job1
+job1 -> class1
+activate class1
+class1 - -> job1: <font color=green><b>SUCCESS</b></font>
+else #FFCCB8 Publish Failure
+class1 - -x job1: <font color=red><b>FAILURE</b></font>
+deactivate class1
+deactivate job1
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job2
+activate job2
+job2 -> class2
+activate class2
+class2 -> script1
+activate script1
+script1 -> s3
+script1 - -> class2
+deactivate script1
+class2 -> script2
+activate script2
+script2 - -> class2
+deactivate script2
+class2 - -> job2: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+class2 -> script3
+activate script3
+script3 - -> class2
+deactivate script3
+class2 - -x job2: <font color=red><b>FAILURE</b></font>
+deactivate class2
+deactivate job2
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job3
+activate job3
+job3 -> class3
+activate class3
+class3 -> pipeline1:
+activate pipeline1
+pipeline1 - -> class3
+deactivate pipeline1
+class3 -> script4
+activate script4
+script4 -> s3
+activate s3
+s3 - -> script4
+deactivate s3
+script4 -> ecs
+activate ecs
+ecs - -> script4
+deactivate ecs
+script4 -> script2
+activate script2
+script2 - -> script4
+deactivate script2
+script4 - -> class3
+class3 - -> job3: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+script4 -> ecs
+activate ecs
+ecs - -> script4
+deactivate ecs
+script4 - -> class3
+deactivate script4
+class3 - -x job3: <font color=red><b>FAILURE</b></font>
+deactivate class3
+deactivate job3
+end Deploy Services
+
+
+
+@enduml
+
+@startuml
+
+!pragma graphviz_dot jdot
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+
+
+sprite $SimpleStorageServiceS3 [64x64/16z] {
+xPO54bmn34DbYYtV_xw5fTcq6vUvRp2SMDAVpn_6V_xJNx-iCjU5h2AxFtzjhJ31CwA-afz5XLwNc7jSS5EvzYmsPz80oFMmVa1MBXD0WYCEIDJBK_gwkIJF
+66I-OXcGFB6WrHpf1JsE1LQJCoseytf9ZZG3CjmVi6IVZH42A4yaH2_g5NV3NHKC1Q0mdYWeb-4zQXuhRwpmcuEy4juy8NAH-SczcuEBFTTOKJUhLEKAlnAn
+icvHR1_qRzi6-m9xYvwXE1c0d95XFHUYzmwruWQ4PnAxE0N0-qE9TgRH102lhSURPqG-2kHrX_s5eu0RTVMivKC-vu0XNsL60OswJfWorlvIm6RQBLeA0s8m
+mEbvvGA8GvXoiE1Sthv5IqFFamh6YG0mLW32WKvuPTPaRmviwHqCS61AxpnXtlxpBoZWp1hpKH1kZ0cUvPqJFDjhJl2H7j8xL7Y8r_097kCz7l7ryiy2zbM-
+cH9uiL_bDnNEJv82M6IHVOTaBHV0-3c4082eUSIAyFl_cov-5iqCKpmZvgk-xV-Llo7_-SzR
+}
+
+skinparam rectangle<<SimpleStorageServiceS3>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<SimpleStorageServiceS3>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $ElasticContainerService [64x64/16z] {
+xPRRhWCX24KtAkpp_rzyedCXaTemqrVflSvoM2IYVylOiOFz-Jgi22d5tj6i0Cm0LBwW6o3IUG6aFSLLWChQ-Vu1iMVYGDS-UF-T5nVjtqx-pASn9tvUUlDU
+3qsaBbvlvrqg9nvvB-eIzXmZ7zrYs3oeqddHkROBYOPYaqib2yBVRSLRl56qjWG_Aj4OofBYuorPNIB1trTFnKZo13IEAi0iBv-6vIT-yvlNjxolYYHlwpqb
+j_ugmrQgPoFGRxolrZQj_vxz-2AP_gNY4cm3LXdP5wJxNxdxd-YOPw1QTCKNdbzTmWhSXTMpYc68_H-Ocgz04nklctid_9h0Qe-aJTDLPWuUYw7C8OBjB4DC
+JVJ1-IFy5oVDbq4bIkNBO47yYGHh5CzBi0NnHnAkyIBOHEpN0_mwTkpu1m
+}
+
+skinparam rectangle<<ElasticContainerService>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+skinparam participant<<ElasticContainerService>> {
+    BackgroundColor #FFFFFF
+    BorderColor #FF9900
+}
+sprite $jenkins [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000015777300000000000000000000
+000000000000000000006CFB767AE9000000000000000000
+0000000000000000004A6A30000007C10000000000000000
+0000000000000000087180000000004D1000000000000000
+00000000000000006726000000000008A000000000000000
+0000000000000002EA6700098000006BF100000000000000
+000000000000000C50080092000000006700000000000000
+000000000000001C00060030000000000800000000000000
+000000000000006B00240000030020004900000000000000
+00000000000005CC5422000000700704AB50000000000000
+0000000000003C4E687500004B70073529C3000000000000
+000000000000D284A7C50000000000A1082D000000000000
+0000000000086072430000000000001B0806800000000000
+00000000001D003700000000000200570700D10000000000
+000000000076000B54300000000577245400770000000000
+0000000000C100019E000000029BA6D490001C0000000000
+0000000001C000000B2002000531320280000D1000000000
+000000000490000005700430007BB50B20000A3000000000
+000000000570000002D000620000008E7000075000000000
+00000000066000006DB9000681005CE1B800076000000000
+000000000670003B700AB7AAEFCABC780B80076000000000
+00000000048009C2000058B004B8A00800B0094000000000
+0000000002B05A00000000800075A00702700B2000000000
+0000000000D01C000000004000866B7906200D0000000000
+0000000000A30C1000000006587436060900490000000000
+00000000004A066000004005B00835131800A40000000000
+00000000000C21B000005002B10444506202C00000000000
+000000000003B0B0000040003AA3A910A4ADB00000000000
+00000000000097900006612456AFFD9CFA30850000000000
+0000000000000BC3003BD9654334B5D482401B0000000000
+00000000000000C500006000000060A270310C0000000000
+0000000000000056000060000000608580220A0000000000
+0000000000000047000060000000517796621A0000000000
+000000000000002E810061000000359C5598A20000000000
+00000000000000018E946400000039D10000000000000000
+0000000000000000005AC700000024A10000000000000000
+000000000000000000001B00000014730000000000000000
+000000000000000000000C00000009B30000000000000000
+00000000000000000000074000000C300000000000000000
+0000000000000000000002EB9879BA000000000000000000
+000000000000000000000002455420000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV JENKINS>> White
+sprite $python [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000025889987520000000000000000000
+000000000000000008EFFFFFFFFFFC200000000000000000
+00000000000000009FFEFFFFFFFFFFF20000000000000000
+0000000000000000FF407FFFFFFFFFFC0000000000000000
+0000000000000001FE002FFFFFFFFFFF0000000000000000
+0000000000000002FF619FFFFFFFFFFF1000000000000000
+0000000000000002FFFFFFFFFFFFFFFF1000000000000000
+0000000000000002FFFFFFFFFFFFFFFF1000000000000000
+000000000000000011111111FFFFFFFF1000000000000000
+00000000005BEEEEEEEEEEEEFFFFFFFF1DEEEA2000000000
+000000000BFFFFFFFFFFFFFFFFFFFFFF1EFFFFE100000000
+000000009FFFFFFFFFFFFFFFFFFFFFFF1EFFFFF900000000
+00000001FFFFFFFFFFFFFFFFFFFFFFFF1EFFFFFF00000000
+00000005FFFFFFFFFFFFFFFFFFFFFFFF0FFFFFFF40000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFA4FFFFFFF70000000
+0000000BFFFFFFFFFFFFFFFFFFFFFFD1CFFFFFFFA0000000
+0000000CFFFFFFFFFFFDCCCCCCCCC81AFFFFFFFFC0000000
+0000000DFFFFFFFFF7112222222236DFFFFFFFFFD0000000
+0000000CFFFFFFFF34DFFFFFFFFFFFFFFFFFFFFFC0000000
+0000000AFFFFFFF74FFFFFFFFFFFFFFFFFFFFFFFB0000000
+00000007FFFFFFF1DFFFFFFFFFFFFFFFFFFFFFFF70000000
+00000004FFFFFFD1FFFFFFFFFFFFFFFFFFFFFFFF30000000
+00000000EFFFFFD2FFFFFFFFFFFFFFFFFFFFFFFD00000000
+000000007FFFFFD2FFFFFFFFFFFFFFFFFFFFFFF500000000
+000000000AFFFFD2FFFFFFFFFFFFFFFFFFFFFFA000000000
+0000000000489982FFFFFFFF999999999999850000000000
+0000000000000002FFFFFFFF666666660000000000000000
+0000000000000002FFFFFFFFFFFFFFFF1000000000000000
+0000000000000002FFFFFFFFFFFFBFFF1000000000000000
+0000000000000002FFFFFFFFFFF402FF1000000000000000
+0000000000000000FFFFFFFFFFF100FF0000000000000000
+00000000000000009FFFFFFFFFFB4AF90000000000000000
+00000000000000000AFFFFFFFFFFFFA00000000000000000
+0000000000000000004BFFFFFFFFB4000000000000000000
+000000000000000000000357653000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV PYTHON>> White
+sprite $groovy [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000003300000000000000000000000
+00000000000000000000000BA00000000000000000000000
+000000000000000000000065460000000000000000000000
+000000000000002CD50001A00A1000000000000000000000
+00000000000002DE9B000920029000000000000000000000
+0000000000000CCE9A003800007300000000000000000000
+0000000000009D4E9C34C52B83CD58A695A2000000000000
+0000006B8446CC4CAACEBDE7CF6AEC7ECFBB4448B7100000
+000000016A887F7CB8D75E98F9ADCBCDCEDC28A610000000
+00000000002989FBD3FCFF4C78275CBAC8DD920000000000
+000000000000BCCC30F75D606F51AF10C31B400000000000
+000000000000D82003CC4DCD92AB6692F70A700000000000
+00000000000096028C1483000000007FFEA7700000000000
+0000000000000CDDA000000330000009683A400000000000
+000000000000000B000017A67A710064019A000000000000
+0000000000000074004993000039A44B9D50000000000000
+00000000000002917A600000000005A82920000000000000
+0000000000000BB820000000000000028BB0000000000000
+000000000000250000000000000000000052000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV GROOVY>> White
+sprite $java [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000120000000000000000000
+000000000000000000000000000080000000000000000000
+0000000000000000000000000001B0000000000000000000
+0000000000000000000000000005A0000000000000000000
+000000000000000000000000000C70000000000000000000
+000000000000000000000000006F10000000000000000000
+00000000000000000000000005F700000000000000000000
+0000000000000000000000006FB000000000000000000000
+000000000000000000000009FB0001650000000000000000
+0000000000000000000001CFA0018C200000000000000000
+000000000000000000002DF9005E90000000000000000000
+00000000000000000001DF8008F700000000000000000000
+0000000000000000000BFB005FA000000000000000000000
+0000000000000000001FF200CF3000000000000000000000
+0000000000000000001FD000FF4000000000000000000000
+0000000000000000000DE000EFB000000000000000000000
+00000000000000000005F2008FF600000000000000000000
+00000000000000000000AA001EFE00000000000000000000
+000000000000000000000B4004FF40000000000000000000
+0000000000000000000000A100BF20000000000000000000
+00000000000000000000000400A900000011000000000000
+00000000000000016730000001800000046CB10000000000
+00000000000005BD30000000010000120000DC0000000000
+0000000000001DFEA7765567889BCB7000008F1000000000
+000000000000001468899988753200000000BE0000000000
+000000000000000001000000000000000004F50000000000
+0000000000000000C800000000024200004E500000000000
+0000000000000000CFFDCBBBCEFFFC201881000000000000
+00000000000000000268AAAAA86400003000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000009A10000002410000000000000000000
+00000000000000000CFFFEDDEFFFF6000000000000000000
+00000000000003520049CEEFFCA720000000000000000000
+000000000019B50000000000000000000002400000000000
+0000000002FF820000000000000000000378000000000000
+00000000018DFFDB9766555566789ACCA610160000000000
+00000000000001357899AABAA9875310026AA10000000000
+0000000000000003542211111233579BCB72000000000000
+000000000000000002457778888765310000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV JAVA>> White
+sprite $jenkins [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000015777300000000000000000000
+000000000000000000006CFB767AE9000000000000000000
+0000000000000000004A6A30000007C10000000000000000
+0000000000000000087180000000004D1000000000000000
+00000000000000006726000000000008A000000000000000
+0000000000000002EA6700098000006BF100000000000000
+000000000000000C50080092000000006700000000000000
+000000000000001C00060030000000000800000000000000
+000000000000006B00240000030020004900000000000000
+00000000000005CC5422000000700704AB50000000000000
+0000000000003C4E687500004B70073529C3000000000000
+000000000000D284A7C50000000000A1082D000000000000
+0000000000086072430000000000001B0806800000000000
+00000000001D003700000000000200570700D10000000000
+000000000076000B54300000000577245400770000000000
+0000000000C100019E000000029BA6D490001C0000000000
+0000000001C000000B2002000531320280000D1000000000
+000000000490000005700430007BB50B20000A3000000000
+000000000570000002D000620000008E7000075000000000
+00000000066000006DB9000681005CE1B800076000000000
+000000000670003B700AB7AAEFCABC780B80076000000000
+00000000048009C2000058B004B8A00800B0094000000000
+0000000002B05A00000000800075A00702700B2000000000
+0000000000D01C000000004000866B7906200D0000000000
+0000000000A30C1000000006587436060900490000000000
+00000000004A066000004005B00835131800A40000000000
+00000000000C21B000005002B10444506202C00000000000
+000000000003B0B0000040003AA3A910A4ADB00000000000
+00000000000097900006612456AFFD9CFA30850000000000
+0000000000000BC3003BD9654334B5D482401B0000000000
+00000000000000C500006000000060A270310C0000000000
+0000000000000056000060000000608580220A0000000000
+0000000000000047000060000000517796621A0000000000
+000000000000002E810061000000359C5598A20000000000
+00000000000000018E946400000039D10000000000000000
+0000000000000000005AC700000024A10000000000000000
+000000000000000000001B00000014730000000000000000
+000000000000000000000C00000009B30000000000000000
+00000000000000000000074000000C300000000000000000
+0000000000000000000002EB9879BA000000000000000000
+000000000000000000000002455420000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV JENKINS>> White
+sprite $git [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000006600000000000000000000000
+0000000000000000000001DFFC1000000000000000000000
+000000000000000000001DFFFFC100000000000000000000
+00000000000000000001DFFFFFFC10000000000000000000
+00000000000000000005FFFFFFFFC1000000000000000000
+000000000000000001005FFFFFFFFC100000000000000000
+00000000000000001D9005FFFFFFFFC10000000000000000
+0000000000000001DFF9005FFFFFFFFC1000000000000000
+000000000000001DFFFF900007FFFFFFC100000000000000
+00000000000001DFFFFFF800009FFFFFFC10000000000000
+0000000000001DFFFFFFF800005FFFFFFFC1000000000000
+000000000001DFFFFFFFFB00004FFFFFFFFC100000000000
+00000000001DFFFFFFFFFF700006FFFFFFFFC10000000000
+0000000001DFFFFFFFFFFFF106006FFFFFFFFC1000000000
+000000001DFFFFFFFFFFFFF10C9006FFFFFFFFC100000000
+00000001DFFFFFFFFFFFFFF10CF900117FFFFFFC10000000
+0000000AFFFFFFFFFFFFFFF10CFF800009FFFFFFA0000000
+0000000DFFFFFFFFFFFFFFF10CFF800005FFFFFFD0000000
+00000008FFFFFFFFFFFFFFF10CFFB00008FFFFFF90000000
+00000000BFFFFFFFFFFFFFF10CFFF7004FFFFFFB00000000
+000000000BFFFFFFFFFFFFF10CFFFFEEFFFFFFB000000000
+0000000000BFFFFFFFFFFFF10CFFFFFFFFFFFC0000000000
+00000000000BFFFFFFFFFFA007FFFFFFFFFFB00000000000
+000000000000BFFFFFFFFC0000AFFFFFFFFB000000000000
+0000000000000BFFFFFFF800006FFFFFFFB0000000000000
+00000000000000BFFFFFFA00008FFFFFFB00000000000000
+000000000000000BFFFFFF6004FFFFFFB000000000000000
+0000000000000000BFFFFFFEDFFFFFFB0000000000000000
+00000000000000000BFFFFFFFFFFFFC00000000000000000
+000000000000000000BFFFFFFFFFFC000000000000000000
+0000000000000000000BFFFFFFFFC0000000000000000000
+00000000000000000000BFFFFFFC00000000000000000000
+000000000000000000000BFFFFC000000000000000000000
+0000000000000000000000AFFB0000000000000000000000
+000000000000000000000003300000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV GIT>> White
+sprite $bitbucket [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000124556655421000000000000000000
+0000000000000269CFFFFFFFFFFFFFFC9620000000000000
+000000000017DFFFFFFFFFFFFFFFFFFFFFFD710000000000
+0000000008FFFFFFFCA8765556678ADFFFFFFF8000000000
+00000000CFFFFF94000000000000000049FFFFFC00000000
+00000008FFFFF6000000000000000000007FFFFF80000000
+0000000AFFFFFE71000000000000000016EFFFFFA0000000
+00000007FFFFFFFFDA864432234458ACFFFFFFFF70000000
+00000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000000
+00000002FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF20000000
+00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000
+00000000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD00000000
+00000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000000
+000000008FFFFFFFFFFFFFFEEFFFFFFFFFFFFFF800000000
+000000006FFFFFFFFFFFF810018FFFFFFFFFFFF500000000
+000000003FFFFFFFFFFF40000004FFFFFFFFFFF300000000
+000000000FFFFFFFFFF7002894007FFFFFFFFFF000000000
+000000000DFFFFFFFFF002FFFF600FFFFFFFFFD000000000
+000000000BFFFFFFFFC009FFFFE00CFFFFFFFFB000000000
+0000000008FFFFFFFFB00AFFFFF00BFFFFFFFF8000000000
+0000000005FFFFFFFFE006FFFFA00EFFFFFFFF5000000000
+0000000002FFFFFFFFF4008FFB104FFFFFFFFF2000000000
+0000000000FFFFFFFFFD00000000DFFFFFFFFF0000000000
+0000000000BFFFFFFFFFC200002DFFFFFFFFFB0000000000
+00000000001DFFFFFFFFFFC99CFFFFFFFFFFD10000000000
+0000000000019FFFFFFFFFFFFFFFFFFFFFF9000000000000
+000000000000029EFFFFFFFFFFFFFFFFE920000000000000
+000000000008E50037BDFFFFFFFFDB73005E800000000000
+000000000006FFD500000123321000005DFF600000000000
+000000000003FFFFFA620000000026AFFFFF300000000000
+000000000000FFFFFFFFFECBBCEFFFFFFFFF000000000000
+000000000000DFFFFFFFFFFFFFFFFFFFFFFD000000000000
+000000000000AFFFFFFFFFFFFFFFFFFFFFFA000000000000
+0000000000007FFFFFFFFFFFFFFFFFFFFFF7000000000000
+0000000000001FFFFFFFFFFFFFFFFFFFFFF1000000000000
+00000000000004FFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000019FFFFFFFFFFFFFFFF9100000000000000
+000000000000000016ADFFFFFFFFDA510000000000000000
+000000000000000000000133331000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV BITBUCKET>> White
+sprite $ma_console [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000001AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB200000
+00001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000
+0000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF0005FFFFF50000000000000000000000FFFF0000
+0000FFFF00005FFFFF5000000000000000000000FFFF0000
+0000FFFF000005FFFFF500000000000000000000FFFF0000
+0000FFFF0000005FFFFF50000000000000000000FFFF0000
+0000FFFF00000005FFFFF5000000000000000000FFFF0000
+0000FFFF000000005FFFFF500000000000000000FFFF0000
+0000FFFF0000000005FFFFF40000000000000000FFFF0000
+0000FFFF00000000005FFFFD0000000000000000FFFF0000
+0000FFFF00000000005FFFFE0000000000000000FFFF0000
+0000FFFF0000000005FFFFF50000000000000000FFFF0000
+0000FFFF000000005FFFFF500000000000000000FFFF0000
+0000FFFF00000005FFFFF5000000000000000000FFFF0000
+0000FFFF0000005FFFFF500000FFFFFFFFFF0000FFFF0000
+0000FFFF000005FFFFF5000000FFFFFFFFFF0000FFFF0000
+0000FFFF00005FFFFF50000000FFFFFFFFFF0000FFFF0000
+0000FFFF0005FFFFF500000000FFFFFFFFFF0000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFF00000000000000000000000000000000FFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA0000
+00002EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000
+000001AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA100000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+skinparam folderBackgroundColor<<MA CONSOLE>> White
+
+title Deploy Processes
+
+skinparam sequence {
+    ParticipantFontName Avenir-Medium
+    ArrowColor #000
+    LifeLineBorderColor #000
+    LifeLineBackgroundColor #FFF
+    ActorBorderColor #000
+    ActorBackgroundColor #FFF
+    ParticipantBorderColor #000
+    ParticipantBackgroundColor #FFF
+    GroupBackgroundColor #FFF
+    ArrowFontColor #000
+    BoxFontColor #FFF
+    BoxBorderColor #FFF
+}
+
+actor Actor <<client>>
+
+box <size:20>jenkins</size> #C45543
+participant job1 as "<color:#C45543><$jenkins></color>\nComponents" <<job>>
+participant job2 as "<color:#C45543><$jenkins></color>\nServices" <<job>>
+participant job3 as "<color:#C45543><$jenkins></color>\nDeployments" <<job>>
+end box
+
+box <size:20>project</size> #6E9BB9
+participant class1 as "<color:#6E9BB9><$groovy></color>\ncomponents.groovy" <<script>>
+participant class2 as "<color:#6E9BB9><$groovy></color>\nservices.groovy" <<script>>
+participant class3 as "<color:#6E9BB9><$groovy></color>\npromote.groovy" <<script>>
+end box
+
+box <size:20>project</size> #F7CB4B
+participant script1 as "<color:#F7CB4B><$ma_console></color>\ndeploy.sh" <<script>>
+participant script2 as "<color:#F7CB4B><$python></color>\ncheck.py" <<script>>
+participant script3 as "<color:#F7CB4B><$python></color>\ndelete.py" <<script>>
+participant script4 as "<color:#F7CB4B><$python></color>\npromote.py" <<script>>
+participant script5 as "<color:#F7CB4B><$python></color>\ndeploy.py" <<script>>
+end box
+
+box <size:20>project</size> #2C507D
+participant pipeline1 as "<color:#2C507D><$bitbucket></color>" <<pipeline>>
+end box
+
+box <size:20>cloud</size> #8CB77C
+participant s3 as "<color:#8CB77C><$SimpleStorageServiceS3></color>\ndeployments" <<bucket>>
+
+participant ecs as "<color:#D86613><$ElasticContainerService></color>\nby environment" <<cluster>>
+end box
+
+
+group #E6FFDB Publish Components
+Actor -> job1
+activate job1
+job1 -> class1
+activate class1
+class1 - -> job1: <font color=green><b>SUCCESS</b></font>
+else #FFCCB8 Publish Failure
+class1 - -x job1: <font color=red><b>FAILURE</b></font>
+deactivate class1
+deactivate job1
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job2
+activate job2
+job2 -> class2
+activate class2
+class2 -> script1
+activate script1
+script1 -> s3
+script1 - -> class2
+deactivate script1
+class2 -> script2
+activate script2
+script2 - -> class2
+deactivate script2
+class2 - -> job2: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+class2 -> script3
+activate script3
+script3 - -> class2
+deactivate script3
+class2 - -x job2: <font color=red><b>FAILURE</b></font>
+deactivate class2
+deactivate job2
+end
+
+
+group #E6FFDB Deploy Services
+Actor -> job3
+activate job3
+job3 -> class3
+activate class3
+class3 -> pipeline1:
+activate pipeline1
+pipeline1 - -> class3
+deactivate pipeline1
+class3 -> script4
+activate script4
+script4 -> s3
+activate s3
+s3 - -> script4
+deactivate s3
+script4 -> ecs
+activate ecs
+ecs - -> script4
+deactivate ecs
+script4 -> script2
+activate script2
+script2 - -> script4
+deactivate script2
+script4 - -> class3
+class3 - -> job3: <font color=green><b>SUCCESS</b></font>
+
+else #FFCCB8 Deploy Failure
+script4 -> ecs
+activate ecs
+ecs - -> script4
+deactivate ecs
+script4 - -> class3
+deactivate script4
+class3 - -x job3: <font color=red><b>FAILURE</b></font>
+deactivate class3
+deactivate job3
+end Deploy Services
+
+
+
+@enduml
+
+PlantUML version 1.2020.15(Sun Jun 28 13:39:45 CEST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

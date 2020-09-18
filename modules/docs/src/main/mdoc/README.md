@@ -164,7 +164,7 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-```scala mdoc:plantuml:@RESOURCES@/result1:png
+```scala mdoc:plantuml:@RESOURCES@/result1:svg
 
 @startuml
 
@@ -180,7 +180,7 @@ Foo1 ----> Foo5 : test 5
 
 ```
 
-```scala mdoc:plantuml:@RESOURCES@/result2:png
+```scala mdoc:plantuml:@RESOURCES@/result2:svg
 
 @startuml
 
