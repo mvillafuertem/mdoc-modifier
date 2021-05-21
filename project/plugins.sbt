@@ -2,7 +2,7 @@
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.10")
 
 // G I T
-addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.1")
 
 // D E P E N D E N C Y  U P D A T E
 addSbtPlugin("org.jmotor.sbt" % "sbt-dependency-updates" % "1.2.2")
