@@ -143,7 +143,7 @@ more information see http://plantuml.com/es/graphviz-dot
 * Add this line to diagram
     
 ```
-!pragma graphviz_dot jdot
+!pragma layout smetana
 ```
 
 more information see http://plantuml.com/es/smetana02
@@ -152,7 +152,7 @@ more information see http://plantuml.com/es/smetana02
 
 @startuml
 
-!pragma graphviz_dot jdot
+!pragma layout smetana
 class Foo1
 
 Foo1 --> Foo2
@@ -168,7 +168,7 @@ Foo1 ----> Foo5 : test 5
 
 @startuml
 
-!pragma graphviz_dot jdot
+!pragma layout smetana
 class Foo1
 
 Foo1 --> Foo2
@@ -184,7 +184,7 @@ Foo1 ----> Foo5 : test 5
 
 @startuml
 
-!pragma graphviz_dot jdot
+!pragma layout smetana
 !define STDLIB https://raw.githubusercontent.com/plantuml/plantuml-stdlib/master
 !includeurl STDLIB/awslib/AWSCommon.puml
 !includeurl STDLIB/awslib/Storage/SimpleStorageServiceS3.puml
@@ -329,6 +329,44 @@ deactivate job3
 end Deploy Services
 
 
+
+@enduml
+
+```
+
+
+```scala mdoc:plantuml:@RESOURCES@/aws-simple-data-lake-architecture:svg
+
+@startuml
+
+!pragma layout smetana
+!define STDLIB https://raw.githubusercontent.com/plantuml/plantuml-stdlib/master
+!include STDLIB/awslib/AWSCommon.puml
+!include STDLIB/awslib/AWSSimplified.puml
+!include STDLIB/awslib/General/all.puml
+!include STDLIB/awslib/GroupIcons/all.puml
+!include STDLIB/awslib/Storage/all.puml
+!include STDLIB/awslib/Analytics/all.puml
+
+skinparam linetype polyline
+
+rectangle awscloud <<awscloud>> as "<color:AWS_COLOR><$Cloudalt></color> <color:grey>AWS CLOUD</color>" {
+
+    SimpleStorageService(s3DataLakeSource, "S3 Data Lake Source", "")
+    User(dataAnalyst, "Data Analyst", "")
+    Athena(athena, "Amazon Athena", "")
+
+    rectangle awsglue <<awsglue>> as "<color:#6A40C1><$Glue></color> AWS Glue" {
+        GlueCrawler(glueCrawler, "Crawler", "")
+        GlueDataCatalog(glueDataCatalog, "Data Catalog", "")
+    }
+
+    s3DataLakeSource -r--> glueCrawler
+    glueCrawler -r--> glueDataCatalog
+    athena -r-> glueDataCatalog
+    dataAnalyst -d-> athena : Analyze
+
+}
 
 @enduml
 
