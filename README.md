@@ -164,7 +164,7 @@ more information see http://plantuml.com/es/graphviz-dot
 * Add this line to diagram
     
 ```
-!pragma graphviz_dot jdot
+!pragma layout smetana
 ```
 
 more information see http://plantuml.com/es/smetana02
@@ -173,7 +173,7 @@ more information see http://plantuml.com/es/smetana02
 
 @startuml
 
-!pragma graphviz_dot jdot
+!pragma layout smetana
 class Foo1
 
 Foo1 --> Foo2
@@ -187,6 +187,8 @@ Foo1 ----> Foo5 : test 5
 
 ![modules/docs/src/main/resources/result1.svg](modules/docs/src/main/resources/result1.svg)
 ![modules/docs/src/main/resources/result2.svg](modules/docs/src/main/resources/result2.svg)
+
+![modules/docs/src/main/resources/aws-simple-data-lake-architecture.svg](modules/docs/src/main/resources/aws-simple-data-lake-architecture.svg)
 
 ### Choosing colors 
 
