@@ -10,7 +10,7 @@ object Dependencies {
       Artifact.akkaHttpTestKit,
       Artifact.akkaTeskit,
       Artifact.scalaTest
-    )//.map(_ % Test)
+    ) //.map(_ % Test)
 
   val `mdoc-modifier-plantuml`: Seq[ModuleID] =
     Seq(
@@ -40,12 +40,12 @@ object Dependencies {
   }
 
   private object Version {
-    val akkaHttp                  = "10.2.0"
-    val akka                      = "2.6.9"
-    val plantUml                  = "1.2021.13"
-    val scalaTest                 = "3.2.2"
-    val zio                       = "1.0.1"
-    val zioLogging                = "0.5.1"
+    val akkaHttp   = "10.2.0"
+    val akka       = "2.6.9"
+    val plantUml   = "1.2021.13"
+    val scalaTest  = "3.2.16"
+    val zio        = "1.0.1"
+    val zioLogging = "0.5.1"
   }
 
 }
