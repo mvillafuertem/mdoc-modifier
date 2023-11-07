@@ -11,7 +11,7 @@ addSbtPlugin("org.jmotor.sbt" % "sbt-dependency-updates" % "1.2.2")
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.6.1")
 
 // M D O C
-addSbtPlugin("org.scalameta" % "sbt-mdoc" % "2.2.9")
+addSbtPlugin("org.scalameta" % "sbt-mdoc" % "2.5.0")
 
 // P G P
 addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.1")
